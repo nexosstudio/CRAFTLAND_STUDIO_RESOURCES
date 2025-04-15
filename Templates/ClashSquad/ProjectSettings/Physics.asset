@@ -1,0 +1,315 @@
+{
+  "_tag": {
+    "type": "ff.physics",
+    "resourceId": "Physics"
+  },
+  "_entityId": "DVgAKR1x",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 29,
+  "modOpen": true,
+  "gravity": {
+    "y": -9.8
+  },
+  "_layers": [
+    {
+      "index": 0,
+      "name": "Default",
+      "disabled": true
+    },
+    {
+      "index": 1,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 2,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 3,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 4,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 5,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 6,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 7,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 8,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 9,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 10,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 11,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 12,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 13,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 14,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 15,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 16,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 17,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 18,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 19,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 20,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 21,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 22,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 23,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 24,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 25,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 26,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 27,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 28,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 29,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 30,
+      "name": "",
+      "disabled": false
+    },
+    {
+      "index": 31,
+      "name": "",
+      "disabled": false
+    }
+  ],
+  "_collision_matrix": [
+    {
+      "index": 0,
+      "value": [
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "value": []
+    },
+    {
+      "index": 2,
+      "value": []
+    },
+    {
+      "index": 3,
+      "value": []
+    },
+    {
+      "index": 4,
+      "value": []
+    },
+    {
+      "index": 5,
+      "value": []
+    },
+    {
+      "index": 6,
+      "value": []
+    },
+    {
+      "index": 7,
+      "value": []
+    },
+    {
+      "index": 8,
+      "value": []
+    },
+    {
+      "index": 9,
+      "value": []
+    },
+    {
+      "index": 10,
+      "value": []
+    },
+    {
+      "index": 11,
+      "value": []
+    },
+    {
+      "index": 12,
+      "value": []
+    },
+    {
+      "index": 13,
+      "value": []
+    },
+    {
+      "index": 14,
+      "value": []
+    },
+    {
+      "index": 15,
+      "value": []
+    },
+    {
+      "index": 16,
+      "value": []
+    },
+    {
+      "index": 17,
+      "value": []
+    },
+    {
+      "index": 18,
+      "value": []
+    },
+    {
+      "index": 19,
+      "value": []
+    },
+    {
+      "index": 20,
+      "value": []
+    },
+    {
+      "index": 21,
+      "value": []
+    },
+    {
+      "index": 22,
+      "value": []
+    },
+    {
+      "index": 23,
+      "value": []
+    },
+    {
+      "index": 24,
+      "value": []
+    },
+    {
+      "index": 25,
+      "value": []
+    },
+    {
+      "index": 26,
+      "value": []
+    },
+    {
+      "index": 27,
+      "value": []
+    },
+    {
+      "index": 28,
+      "value": []
+    },
+    {
+      "index": 29,
+      "value": []
+    },
+    {
+      "index": 30,
+      "value": []
+    },
+    {
+      "index": 31,
+      "value": []
+    }
+  ],
+  "showSwitch": false,
+  "_entityName": "T_43_YU_WS_MODULE_PHYSICS"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4501},"s":100}

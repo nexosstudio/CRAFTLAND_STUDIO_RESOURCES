@@ -1,0 +1,291 @@
+{
+  "_tag": {
+    "type": "ACEntity",
+    "resourceId": "ac.acEntity"
+  },
+  "_entityId": "RNR6cpA5",
+  "children": [
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "G1pzsxXd",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "IJZcwhCj",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "0hEp13RW",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_OTTER_INGAME_BASIC_ANIMRES:0",
+                "filePath": "lib://builtInAnim/Pet_Ottero_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 5.333,
+              "_entityName": "Pet_Ottero_Idle"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Idle"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "U2g1anec",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "QkTZWZ5v",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "74249xtP",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_OTTER_INGAME_BASIC_ANIMRES:1",
+                "filePath": "lib://builtInAnim/Pet_Ottero_Walk.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 1.033,
+              "_entityName": "Pet_Ottero_Walk"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Walk"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "EQJchzHm",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "d37r6A5X",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "5Vve46UF",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_OTTER_INGAME_BASIC_ANIMRES:3",
+                "filePath": "lib://builtInAnim/Pet_Ottero_Run.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.9,
+              "_entityName": "Pet_Ottero_Run"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Run"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "6IYkXdL4",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "3lcXRcPu",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "pJHDZ7WH",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_OTTER_INGAME_BASIC_ANIMRES:5",
+                "filePath": "lib://builtInAnim/Pet_Ottero_Jump.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 2.033,
+              "_entityName": "Pet_Ottero_Jump"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Jump"
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "version": 0,
+  "preModel": null,
+  "bpcFile": null,
+  "_entityName": "OtteroDefault"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

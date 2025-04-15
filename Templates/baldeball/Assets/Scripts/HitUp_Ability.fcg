@@ -1,0 +1,6 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+
+graph HelloWorld {
+    // 
+}

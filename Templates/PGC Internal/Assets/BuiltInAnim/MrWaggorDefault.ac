@@ -1,0 +1,291 @@
+{
+  "_tag": {
+    "type": "ACEntity",
+    "resourceId": "ac.acEntity"
+  },
+  "_entityId": "ZLgjdsgu",
+  "children": [
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "WoqAGMrC",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "aIfr1EW4",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "8aSIj0WW",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_PENGUIN_INGAME_BASIC_ANIMRES:0",
+                "filePath": "lib://builtInAnim/Pet_MrWaggor_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 5.033,
+              "_entityName": "Pet_MrWaggor_Idle"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Idle"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "TuH40DKQ",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "UsFM2blJ",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "sJSkDnhT",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_PENGUIN_INGAME_BASIC_ANIMRES:1",
+                "filePath": "lib://builtInAnim/Pet_MrWaggor_Walk.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.967,
+              "_entityName": "Pet_MrWaggor_Walk"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Walk"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "V1NRvrLF",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "uqMxIoTl",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "CloUdi1G",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_PENGUIN_INGAME_BASIC_ANIMRES:3",
+                "filePath": "lib://builtInAnim/Pet_MrWaggor_Run.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.633,
+              "_entityName": "Pet_MrWaggor_Run"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Run"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "QyExYjxl",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "ERVARHUY",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "SRc1jMXv",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_PENGUIN_INGAME_BASIC_ANIMRES:5",
+                "filePath": "lib://builtInAnim/Pet_MrWaggor_Jump.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.533,
+              "_entityName": "Pet_MrWaggor_Jump"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Jump"
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "version": 0,
+  "preModel": null,
+  "bpcFile": null,
+  "_entityName": "MrWaggorDefault"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

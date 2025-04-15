@@ -1,0 +1,291 @@
+{
+  "_tag": {
+    "type": "ACEntity",
+    "resourceId": "ac.acEntity"
+  },
+  "_entityId": "9tI19dTG",
+  "children": [
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "YJz5JDpp",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "JMKIrIIk",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "gojcrAsB",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_FLYINGCREATURE_INGAME_BASIC_ANIMRES:0",
+                "filePath": "lib://builtInAnim/Pet_Arvon_Idle.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 4.033,
+              "_entityName": "Pet_Arvon_Idle"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Idle"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "cAclsnI5",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "GIOJYkC7",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "8M5iUaEi",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_FLYINGCREATURE_INGAME_BASIC_ANIMRES:1",
+                "filePath": "lib://builtInAnim/Pet_Arvon_Walk.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 1.033,
+              "_entityName": "Pet_Arvon_Walk"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Walk"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "cPgdU31A",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "aj9NZpf8",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "aAoZ6hST",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_FLYINGCREATURE_INGAME_BASIC_ANIMRES:3",
+                "filePath": "lib://builtInAnim/Pet_Arvon_Run.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.7,
+              "_entityName": "Pet_Arvon_Run"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Run"
+    },
+    {
+      "_tag": {
+        "type": "ACStateEntity",
+        "resourceId": ""
+      },
+      "_entityId": "4bPG95dy",
+      "children": [
+        {
+          "_tag": {
+            "type": "ACLayerEntity",
+            "resourceId": ""
+          },
+          "_entityId": "v4xsUfmK",
+          "children": [
+            {
+              "_tag": {
+                "type": "ACClipEntity",
+                "resourceId": ""
+              },
+              "_entityId": "xi6Skd0u",
+              "children": [],
+              "prefabVariant": null,
+              "activeValue": null,
+              "unlockedValue": null,
+              "editorLockValue": false,
+              "editorVisibleValue": true,
+              "speed": 1,
+              "loop": false,
+              "fadeInTime": 0.2,
+              "enablefadeTime": true,
+              "clipRefer": {
+                "fileId": "PET_FLYINGCREATURE_INGAME_BASIC_ANIMRES:5",
+                "filePath": "lib://builtInAnim/Pet_Arvon_Jump.anim",
+                "_tag": {
+                  "type": "GFileRefer"
+                },
+                "fileType": "anim"
+              },
+              "wrapMode": 0,
+              "startTime": 0,
+              "endTime": 0.733,
+              "_entityName": "Pet_Arvon_Jump"
+            }
+          ],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "isLoop": false,
+          "isBaseLayer": true,
+          "mute": false,
+          "bodypartId": null,
+          "DisableChanged": false,
+          "_entityName": "Base Layer"
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "isLoop": false,
+      "_eventFrameList": [],
+      "selectedBodyparts": [],
+      "DisableChanged": false,
+      "_entityName": "Jump"
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "version": 0,
+  "preModel": null,
+  "bpcFile": null,
+  "_entityName": "ArvonDefault"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

@@ -1,0 +1,25 @@
+import "StdLibrary.fcc" as std
+import "EditorGenLib.fcc" as editorGenLib
+import "Physics.fcc" as physics
+import Resources as Res from "EditorGenLib.fcc"
+
+graph MulBomb {
+    //Respond to custom events
+    event OnItemCreated() {
+        thisEntity<ItemTrigger>.Icon<IconEntity>.IconResID = Res.Icons[EIcon.MulBomb] as SpriteID
+    }
+
+    event OnEntityEnterTrigger(enterEntity entity<Entity>) {
+        if !HasComponent(enterEntity, typeof(Player)) {
+            return
+        }
+
+        if enterEntity<Player>.BombNum >= 6 {
+            return
+        }
+
+        ShowTips(enterEntity<Player>, "Number of bombs +1", #3078caff, 1500)
+        enterEntity<Player>.BombNum+=1
+        DeleteEntity(thisEntity)
+    }
+}

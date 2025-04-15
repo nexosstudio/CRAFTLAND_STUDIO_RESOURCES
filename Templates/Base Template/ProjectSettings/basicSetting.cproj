@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "nameLocKey": "",
+  "description": "",
+  "descriptionLocKey": "",
+  "subTitleId": 22,
+  "showTags": [],
+  "typeTags": [
+    22
+  ],
+  "showNewTag": false,
+  "customShot": null,
+  "lang": 1,
+  "locCsvPath": "Assets\\Localization\\key.csv",
+  "defaultShot": 0,
+  "customShotSize": 0,
+  "enable_static_combine": false,
+  "enable_dynamic_combine": true,
+  "enable_loadArea": false
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

@@ -1,0 +1,55 @@
+{
+  "_tag": {
+    "type": "ff.global",
+    "resourceId": "Global"
+  },
+  "_entityId": "LEv3TJPL",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 39,
+  "DisableReconnect": false,
+  "RecommendStartGameNumber": 4,
+  "EnableHalfwayJoin": false,
+  "EnableHalfwayJoinEffectTime": true,
+  "HalfwayJoinEffectTime": 120,
+  "HalfwayJoinNumber": 5,
+  "HalfwayJoinNumberLimit": true,
+  "EnableFreeQuit": false,
+  "PriorityFullStartMatch": true,
+  "AllowHangUpTime": 20,
+  "EnableRuntimeDynamicNavMesh": false,
+  "ReduceLogicFrame": true,
+  "EnableHackCheck": false,
+  "CustomMatchResult": true,
+  "modOpen": true,
+  "ecaProps": {
+    "Global": {
+      "PlayerRoundRankingRuleScoreType": [],
+      "PlayerRoundRankingRuleSortType": [],
+      "TeamRoundRankingRuleScoreType": [],
+      "TeamRoundRankingRuleSortType": [],
+      "MVPRuleScoreType": [],
+      "MVPRuleScoreWeight": [],
+      "RoundRankToScoreMap": [],
+      "ScoreTypeToShowResult": [],
+      "TeamRankAccumulateScoreType": 0,
+      "TeamRankAccumulateScoreOrder": 0,
+      "PlayerRankAccumulateScoreType": 0,
+      "PlayerRankAccumulateScoreOrder": 0,
+      "EcoRoundMoney": 0,
+      "EcoKillMoney": 0,
+      "EcoWinMoney": 0,
+      "CoinHudShow": false,
+      "SkyboxEnv": null
+    },
+    "Entity": {},
+    "Component": {}
+  },
+  "globalGraphs": [],
+  "_entityName": "Global模组"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

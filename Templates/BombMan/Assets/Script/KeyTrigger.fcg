@@ -1,0 +1,12 @@
+import "StdLibrary.fcc" as std
+import "Physics.fcc" as physics
+import "./ConstValues.fcg" as const
+
+graph KeyTrigger {
+    event OnEntityEnterTrigger(enterEntity entity<Entity>) {
+        //The player picks up the key to enter the next level
+        AddTag(enterEntity, const.TagKeyPlayer)
+        enterEntity<Player>.RevivePosition = thisEntity<Transform>.Position
+        DeleteEntity(thisEntity)
+    }
+}

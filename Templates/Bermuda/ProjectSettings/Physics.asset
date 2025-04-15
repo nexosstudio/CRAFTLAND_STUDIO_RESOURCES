@@ -1,0 +1,16 @@
+{
+  "_tag": {
+    "type": "ff.physics",
+    "resourceId": "Physics"
+  },
+  "_entityId": "TdbWw7hZ",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 29,
+  "modOpen": true
+}
+//"{FE:{"v":"0.1.2974255","c":{"FF":4404},"s":100}

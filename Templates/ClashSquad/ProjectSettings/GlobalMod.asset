@@ -1,0 +1,190 @@
+{
+  "_tag": {
+    "type": "ff.global",
+    "resourceId": "Global"
+  },
+  "_entityId": "hg46OlC8",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 39,
+  "DisableReconnect": false,
+  "RecommendStartGameNumber": 2,
+  "EnableHalfwayJoin": false,
+  "EnableHalfwayJoinEffectTime": true,
+  "HalfwayJoinEffectTime": 120,
+  "HalfwayJoinNumber": 5,
+  "HalfwayJoinNumberLimit": true,
+  "EnableFreeQuit": false,
+  "PriorityFullStartMatch": true,
+  "AllowHangUpTime": 20,
+  "EnableRuntimeDynamicNavMesh": false,
+  "ReduceLogicFrame": false,
+  "EnableHackCheck": false,
+  "modOpen": true,
+  "ecaProps": {
+    "Global": {
+      "PlayerRoundRankingRuleScoreType": [],
+      "PlayerRoundRankingRuleSortType": [],
+      "TeamRoundRankingRuleScoreType": [],
+      "TeamRoundRankingRuleSortType": [],
+      "MVPRuleScoreType": [],
+      "MVPRuleScoreWeight": [],
+      "RoundRankToScoreMap": [],
+      "ScoreTypeToShowResult": [],
+      "TeamRankAccumulateScoreType": 0,
+      "TeamRankAccumulateScoreOrder": 0,
+      "PlayerRankAccumulateScoreType": 0,
+      "PlayerRankAccumulateScoreOrder": 0,
+      "EcoRoundMoney": 0,
+      "EcoKillMoney": 0,
+      "EcoWinMoney": 0,
+      "CoinHudShow": false,
+      "SkyboxEnv": null,
+      "CustomMatchResult": true,
+      "PROP_32455303": 1000,
+      "PROP_31817186": 600,
+      "PROP_39969908": 300,
+      "PROP_69428200": 1300,
+      "PROP_80528881": 1000,
+      "PROP_64540188": 2000,
+      "PROP_55496593": 3000
+    },
+    "Entity": {},
+    "Component": {}
+  },
+  "globalGraphs": [
+    {
+      "fileId": "vwv8s3htty-lyr6ipd5-wp9i2j0pt8o",
+      "filePath": "Assets\\ECA\\Global\\GameManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "pn18cwlsf7r-lyws7uzo-2fomh3xemu6",
+      "filePath": "Assets\\ECA\\Global\\EquipmentManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "tldglzem1d-lypklink-c07gvg3o5lj",
+      "filePath": "Assets\\ECA\\Global\\MoneyManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "acviiray008-lywoc0uw-ta6loirek4m",
+      "filePath": "Assets\\ECA\\Global\\SafeZoneManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "tlskvv8hbg-lywo1w1v-ptxniu7a56",
+      "filePath": "Assets\\ECA\\Global\\SpawnManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "bdje68im0ha-lypkl4x5-3n2ur86895r",
+      "filePath": "Assets\\ECA\\Global\\StoreManager.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "g1a208kk90e-lyqpikh4-r8y9fp5qry",
+      "filePath": "Assets\\ECA\\UI\\UIManager_BattleBanner.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "2nhl2pmj1n2-lyqyzix0-l7iinm3o2",
+      "filePath": "Assets\\ECA\\UI\\UIManager_MatchResult.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "kfg5ej152p9-lypl9vkh-9um3eg28xcw",
+      "filePath": "Assets\\ECA\\UI\\UIManager_MatcSubtitle.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "dlpus4791aq-lyploztm-j9jl0z5zll",
+      "filePath": "Assets\\ECA\\UI\\UIManager_Money.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "rtxiw00kc5-lyqyic78-7sp7t9rokes",
+      "filePath": "Assets\\ECA\\UI\\UIManager_RoundInformation.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "cefp6j28v3-lypm3baf-8d799aayj2t",
+      "filePath": "Assets\\ECA\\UI\\UIManager_RoundResult.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "81003cljtk6-lypjpd2m-2fl1jdyguv1",
+      "filePath": "Assets\\ECA\\UI\\UIManager_StageCountDown.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "qox5byrqiwl-lypkd6u3-4ybsqw6kvxb",
+      "filePath": "Assets\\ECA\\UI\\UIManager_Store.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    },
+    {
+      "fileId": "u7qgfpwdi4e-lypkybuo-sm60xpjud8i",
+      "filePath": "Assets\\ECA\\UI\\UIManager_TeamMatchInformation.eca",
+      "_tag": {
+        "type": "GFileRefer"
+      },
+      "fileType": "eca"
+    }
+  ],
+  "_entityName": "T_43_YU_WS_MODULE_GLOBAL",
+  "showSwitch": false
+}
+//"{FE:{"v":"1.9.3093970","c":{"FF":4501},"s":100}

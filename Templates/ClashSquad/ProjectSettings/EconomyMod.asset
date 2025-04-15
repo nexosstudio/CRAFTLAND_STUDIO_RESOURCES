@@ -1,0 +1,18 @@
+{
+  "_tag": {
+    "type": "ff.economy",
+    "resourceId": "Economy"
+  },
+  "_entityId": "8LWTaxB2",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 25,
+  "modOpen": true,
+  "_entityName": "Economy模组",
+  "customEconomyTypes": []
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4501},"s":100}

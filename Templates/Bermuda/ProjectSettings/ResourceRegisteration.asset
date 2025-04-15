@@ -1,0 +1,85 @@
+{
+  "_tag": {
+    "type": "ResourceRegisteration"
+  },
+  "_entityId": "yd4Pnquu",
+  "Resource": {
+    "ui": {
+      "id": "ui",
+      "children": []
+    },
+    "scene": {
+      "id": "scene",
+      "children": []
+    },
+    "prefab": {
+      "id": "prefab",
+      "children": []
+    },
+    "ugcscript": {
+      "id": "ugcscript",
+      "children": []
+    },
+    "ugcscriptclient": {
+      "id": "ugcscriptclient",
+      "children": []
+    },
+    "eca": {
+      "id": "eca",
+      "children": []
+    },
+    "ecaclient": {
+      "id": "ecaclient",
+      "children": []
+    },
+    "texture": {
+      "id": "texture",
+      "children": []
+    },
+    "effecttype": {
+      "id": "effecttype",
+      "children": []
+    },
+    "sound": {
+      "id": "sound",
+      "children": []
+    },
+    "fitem": {
+      "id": "fitem",
+      "children": []
+    },
+    "fScenePrefab": {
+      "id": "fScenePrefab",
+      "children": []
+    },
+    "clothskin": {
+      "id": "clothskin",
+      "children": []
+    },
+    "weaponskin": {
+      "id": "weaponskin",
+      "children": []
+    },
+    "vehicleskin": {
+      "id": "vehicleskin",
+      "children": []
+    },
+    "emoteskin": {
+      "id": "emoteskin",
+      "children": []
+    },
+    "csv": {
+      "id": "csv",
+      "children": []
+    },
+    "internalhudtype": {
+      "id": "internalhudtype",
+      "children": []
+    },
+    "textureResource": {
+      "id": "textureResource",
+      "children": []
+    }
+  }
+}
+//"{FE:{"v":"0.1.2974255","c":{"FF":4404},"s":100}

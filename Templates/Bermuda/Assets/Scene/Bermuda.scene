@@ -1,0 +1,17 @@
+{
+  "_tag": {
+    "type": "Scene",
+    "resourceId": ""
+  },
+  "_entityId": "OcQ7Wot5",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "discriminator": "ISceneLike",
+  "_entityName": "Scene",
+  "mapID": 1
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4404},"s":100}

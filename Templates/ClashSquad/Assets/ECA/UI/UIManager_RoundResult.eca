@@ -1,0 +1,2705 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "fna",
+        "id": "]:6xWOO(#F.d8!R%b32,",
+        "x": -636,
+        "y": 950,
+        "extraState": [
+          {
+            "id": "_arg8448",
+            "name": "entity",
+            "type": "Object",
+            "isOut": false
+          },
+          {
+            "id": "_arg1871",
+            "name": "time",
+            "type": "Int",
+            "isOut": false
+          }
+        ],
+        "fields": {
+          "N": "DeleteEntity",
+          "_arg8448": {
+            "name": "entity",
+            "type": "Object"
+          },
+          "_arg1871": {
+            "name": "time",
+            "type": "Int"
+          }
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "a",
+              "id": "BX*~C^(t7x]ObIV9Nf;Z",
+              "extraState": {
+                "X": 30,
+                "L": [
+                  1
+                ],
+                "T": "WaitForSeconds",
+                "OT": null
+              },
+              "inputs": {
+                "P1": {
+                  "shadow": {
+                    "type": "ipi",
+                    "id": "W|^V$|u*S)L+UeG_=`DN",
+                    "fields": {
+                      "V": 0
+                    }
+                  },
+                  "block": {
+                    "type": "opa",
+                    "id": "XKZq[jZdh@toG)Y~/O^K",
+                    "extraState": {
+                      "X": 1
+                    },
+                    "fields": {
+                      "O": "MU"
+                    },
+                    "inputs": {
+                      "V1": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": "wcrW6Y8QnqudbI1k$CQ|",
+                          "fields": {
+                            "V": "0"
+                          }
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "1l%]nQXJ)Y2Jg$)HjOrV",
+                          "extraState": "]:6xWOO(#F.d8!R%b32,_arg1871",
+                          "fields": {
+                            "VR": "time"
+                          }
+                        }
+                      },
+                      "V2": {
+                        "shadow": {
+                          "type": "ipn",
+                          "id": "vQJ5WAzJ9]7K;uY(ujS~",
+                          "fields": {
+                            "V": "1000"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "a",
+                  "id": "D*?cl?oB?.u+fh0FYz?M",
+                  "extraState": {
+                    "X": 354,
+                    "L": [
+                      1
+                    ],
+                    "T": "RemoveEntity",
+                    "OT": null
+                  },
+                  "inputs": {
+                    "P1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "ZnOePM@JjL@Rj2.R^X6`",
+                        "extraState": "entity"
+                      },
+                      "block": {
+                        "type": "lcg",
+                        "id": "RF~[XsX*8Ztc/c0^Ayl1",
+                        "extraState": "]:6xWOO(#F.d8!R%b32,_arg8448",
+                        "fields": {
+                          "VR": "entity"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fna",
+        "id": "|g6o^[IR?*(*j/-oh?;v",
+        "x": -637,
+        "y": 510,
+        "extraState": [],
+        "fields": {
+          "N": "ShowRoundResultBanner"
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "lpe",
+              "id": "pg2T9~$?Cc+1}(){*4Yv",
+              "fields": {
+                "X": {
+                  "name": "key",
+                  "type": "Int"
+                },
+                "I": {
+                  "name": "value",
+                  "type": "Player"
+                }
+              },
+              "inputs": {
+                "RN": {
+                  "shadow": {
+                    "type": "tys",
+                    "id": "AOBX%/[d6T,_r,2f1Q~i",
+                    "extraState": "List|Map__List and Dictionary"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "KZdRjj`d5qls?ShSj!e!",
+                    "extraState": {
+                      "X": 64,
+                      "L": [],
+                      "T": "AllPlayers",
+                      "OT": null
+                    }
+                  }
+                },
+                "D": {
+                  "block": {
+                    "type": "a",
+                    "id": "nZPBd1h3/zx~[|ipY.nZ",
+                    "extraState": {
+                      "X": 32,
+                      "L": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "T": "CreateInternalHud",
+                      "OT": null
+                    },
+                    "fields": {
+                      "P1": {
+                        "name": "HUD",
+                        "type": "ResultBannerHud"
+                      }
+                    },
+                    "inputs": {
+                      "P2": {
+                        "shadow": {
+                          "type": "tys",
+                          "id": "c.b#_;+FG*T}(Y@u(tJ?",
+                          "extraState": "Player"
+                        },
+                        "block": {
+                          "type": "lcg",
+                          "id": "Fpc[zLBgTTWQ`@pK9ljc",
+                          "extraState": "pg2T9~$?Cc+1}(){*4YvI",
+                          "fields": {
+                            "VR": "value"
+                          }
+                        }
+                      },
+                      "P3": {
+                        "shadow": {
+                          "type": "pih",
+                          "id": "W%+;KK6Yw8zRmrXm!-p0",
+                          "fields": {
+                            "V": "InternalHud_ResultBannerHud"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "ife1",
+                        "id": "pZw}pPh};xKmH`;d;VL9",
+                        "extraState": {
+                          "X": 2,
+                          "CIDS": []
+                        },
+                        "inputs": {
+                          "C": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "`G0`7**9xt#^e4QHyW.E",
+                              "extraState": "bool"
+                            },
+                            "block": {
+                              "type": "prg",
+                              "id": "^%#$6D@dT.:Ju!i4=-HE",
+                              "extraState": {
+                                "X": 1,
+                                "T": "Bool"
+                              },
+                              "fields": {
+                                "P": "IsACE:Team"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": ":GWS?318u3Odk,T71P;e",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "prg",
+                                    "id": "mSJ6qs0$mYzi}Z:xk`%2",
+                                    "extraState": {
+                                      "X": 1,
+                                      "T": "Team"
+                                    },
+                                    "fields": {
+                                      "P": "HostTeamEntity:Player"
+                                    },
+                                    "inputs": {
+                                      "H": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "o,c6M%DF/=8i:B{J3kzl",
+                                          "extraState": "Component"
+                                        },
+                                        "block": {
+                                          "type": "lcg",
+                                          "id": "sNhvL%5J2M;-7HWsap(P",
+                                          "extraState": "pg2T9~$?Cc+1}(){*4YvI",
+                                          "fields": {
+                                            "VR": "value"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "D": {
+                            "block": {
+                              "type": "prs",
+                              "id": "JK7]cCo)2cj;zTq_r5xD",
+                              "fields": {
+                                "P": "Result:ResultBannerHud",
+                                "O": "UK"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "9qk!l}SWR{sqBZ.|uLXk",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "hH^|=vfAcnNLl8F(z~f%",
+                                    "extraState": "nZPBd1h3/zx~[|ipY.nZP1",
+                                    "fields": {
+                                      "VR": "HUD"
+                                    }
+                                  }
+                                },
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "f|_;lgOxA?p~rw0lQF,7",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "ipi",
+                                    "id": "t*;vE[n44{)zd:l,ieuD",
+                                    "fields": {
+                                      "V": 2
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "D_else": {
+                            "block": {
+                              "type": "prs",
+                              "id": "+c}I4b]:Y1$HXMVRty1P",
+                              "fields": {
+                                "P": "Result:ResultBannerHud",
+                                "O": "UK"
+                              },
+                              "inputs": {
+                                "H": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "9qk!l}SWR{sqBZ.|uLXk",
+                                    "extraState": "Component"
+                                  },
+                                  "block": {
+                                    "type": "lcg",
+                                    "id": "tz$1lmW(4qiZCoQ/Q6u#",
+                                    "extraState": "nZPBd1h3/zx~[|ipY.nZP1",
+                                    "fields": {
+                                      "VR": "HUD"
+                                    }
+                                  }
+                                },
+                                "V": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": "xz:@r9lnK_bCX(9GF|Qa",
+                                    "extraState": "Int"
+                                  },
+                                  "block": {
+                                    "type": "ipi",
+                                    "id": "]!fzgN*OA%j:0B%5.oBk",
+                                    "fields": {
+                                      "V": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "fca",
+                            "id": "{7@3]`?9f+]rI)Ekt$8j",
+                            "extraState": {
+                              "id": "]:6xWOO(#F.d8!R%b32,",
+                              "name": "DeleteEntity",
+                              "params": [
+                                {
+                                  "id": "_arg8448",
+                                  "name": "entity",
+                                  "type": "Object",
+                                  "isOut": false
+                                },
+                                {
+                                  "id": "_arg1871",
+                                  "name": "time",
+                                  "type": "Int",
+                                  "isOut": false
+                                }
+                              ],
+                              "returnType": null
+                            },
+                            "fields": {
+                              "T": "S"
+                            },
+                            "inputs": {
+                              "_arg8448": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "`Kw5ge{^vGn4)xf3wfSd",
+                                  "extraState": "Object"
+                                },
+                                "block": {
+                                  "type": "lcg",
+                                  "id": "AlNa@qu5tJk]wKyg#(4]",
+                                  "extraState": "nZPBd1h3/zx~[|ipY.nZP1",
+                                  "fields": {
+                                    "VR": "HUD"
+                                  }
+                                }
+                              },
+                              "_arg1871": {
+                                "shadow": {
+                                  "type": "tys",
+                                  "id": "wVN:ym]hj$lt3V[uPc!-",
+                                  "extraState": "Int"
+                                },
+                                "block": {
+                                  "type": "ipi",
+                                  "id": "reRy?=XGgaCO6,[A=iK5",
+                                  "fields": {
+                                    "V": 2
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "fna",
+        "id": "zha/#S0OH;7)fS!e}/,}",
+        "x": 334,
+        "y": 88,
+        "extraState": [],
+        "fields": {
+          "N": "ShowRoundResultScore"
+        },
+        "inputs": {
+          "D": {
+            "block": {
+              "type": "lcd",
+              "id": "Ib|KAjSLM.8[FOSKO|43",
+              "fields": {
+                "VD": {
+                  "name": "teams",
+                  "type": "ListT_Team"
+                },
+                "T": "$Auto"
+              },
+              "inputs": {
+                "V": {
+                  "shadow": {
+                    "type": "tyd",
+                    "id": "7oatmU6Nf#Th3axDSNa/",
+                    "extraState": "$Auto"
+                  },
+                  "block": {
+                    "type": "v",
+                    "id": "LCtXUBQBN+*=Ef2};wI@",
+                    "extraState": {
+                      "X": 65,
+                      "L": [],
+                      "T": "AllTeams",
+                      "OT": null
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "lcd",
+                  "id": "lk=ruVL/U6UPma7A2y{3",
+                  "fields": {
+                    "VD": {
+                      "name": "team1",
+                      "type": "Team"
+                    },
+                    "T": "Team"
+                  },
+                  "inputs": {
+                    "V": {
+                      "shadow": {
+                        "type": "tyd",
+                        "id": "A?L:U5x4=Ba%qOF]u*hq",
+                        "extraState": "Team"
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "lcd",
+                      "id": "xE*Y{ccqick%xezBPC~a",
+                      "fields": {
+                        "VD": {
+                          "name": "team2",
+                          "type": "Team"
+                        },
+                        "T": "Team"
+                      },
+                      "inputs": {
+                        "V": {
+                          "shadow": {
+                            "type": "tyd",
+                            "id": "f_{lF:H:9P^@szcfsj!i",
+                            "extraState": "Team"
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "ife1",
+                          "id": "nMf/QqO7yFvv;c++;{!:",
+                          "extraState": {
+                            "X": 1,
+                            "CIDS": []
+                          },
+                          "inputs": {
+                            "C": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": ".3_QTq.g7q)|k3AEvoOG",
+                                "extraState": "bool"
+                              },
+                              "block": {
+                                "type": "opc",
+                                "id": "v7%Z`P}SPjFHrK,cIe0y",
+                                "fields": {
+                                  "O": "GE"
+                                },
+                                "inputs": {
+                                  "V1": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "VccPtEt%d[;vFOB-n1fT",
+                                      "extraState": "number"
+                                    },
+                                    "block": {
+                                      "type": "v",
+                                      "id": "3SJ:#rCDJxtY0^|n_$9e",
+                                      "extraState": {
+                                        "X": 66,
+                                        "L": [
+                                          1
+                                        ],
+                                        "T": "ListLength",
+                                        "OT": null
+                                      },
+                                      "inputs": {
+                                        "P1": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": ";N5EtNCkE7f-:{TDC~-M",
+                                            "extraState": "List"
+                                          },
+                                          "block": {
+                                            "type": "lcg",
+                                            "id": "F6l_?]]vm/i-00w?D=H=",
+                                            "extraState": "Ib|KAjSLM.8[FOSKO|43VD",
+                                            "fields": {
+                                              "VR": "teams"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "V2": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "8C6[7{~(@8)f?E9A4z;W",
+                                      "extraState": "number"
+                                    },
+                                    "block": {
+                                      "type": "ipi",
+                                      "id": "gtrw_l09n[Qe201g!*mE",
+                                      "fields": {
+                                        "V": 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "D": {
+                              "block": {
+                                "type": "lcs",
+                                "id": "YUY5Gw*aV1o+g]s~?GhV",
+                                "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                "fields": {
+                                  "VR": "team1",
+                                  "O": "UK"
+                                },
+                                "inputs": {
+                                  "V": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "!IKl5#,4[q@JMPE)?OF1",
+                                      "extraState": "Team"
+                                    },
+                                    "block": {
+                                      "type": "v",
+                                      "id": "j#Xs=,668TmGE}uqeeVo",
+                                      "extraState": {
+                                        "X": 67,
+                                        "L": [
+                                          1,
+                                          2
+                                        ],
+                                        "T": "ListGetElement",
+                                        "OT": null
+                                      },
+                                      "inputs": {
+                                        "P1": {
+                                          "shadow": {
+                                            "type": "tys",
+                                            "id": "Resbog*k8+72}iY~#]v)",
+                                            "extraState": "List"
+                                          },
+                                          "block": {
+                                            "type": "lcg",
+                                            "id": "lZ/8FKF+d^`RK]6@EEPF",
+                                            "extraState": "Ib|KAjSLM.8[FOSKO|43VD",
+                                            "fields": {
+                                              "VR": "teams"
+                                            }
+                                          }
+                                        },
+                                        "P2": {
+                                          "shadow": {
+                                            "type": "ipi",
+                                            "id": "PmwD3QEe}@!l@7X:V~O`",
+                                            "fields": {
+                                              "V": 0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "ife1",
+                              "id": "~9I]9C-_FkC(xgh[qu3@",
+                              "extraState": {
+                                "X": 1,
+                                "CIDS": []
+                              },
+                              "inputs": {
+                                "C": {
+                                  "shadow": {
+                                    "type": "tys",
+                                    "id": ".3_QTq.g7q)|k3AEvoOG",
+                                    "extraState": "bool"
+                                  },
+                                  "block": {
+                                    "type": "opc",
+                                    "id": "I21G/B=XxEAAA{,W=j~4",
+                                    "fields": {
+                                      "O": "GE"
+                                    },
+                                    "inputs": {
+                                      "V1": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "^o7d+*?zNLlA6`M:E.)T",
+                                          "extraState": "number"
+                                        },
+                                        "block": {
+                                          "type": "v",
+                                          "id": "JyUrmAea7{:RCtY8*t@c",
+                                          "extraState": {
+                                            "X": 66,
+                                            "L": [
+                                              1
+                                            ],
+                                            "T": "ListLength",
+                                            "OT": null
+                                          },
+                                          "inputs": {
+                                            "P1": {
+                                              "shadow": {
+                                                "type": "tys",
+                                                "id": ";N5EtNCkE7f-:{TDC~-M",
+                                                "extraState": "List"
+                                              },
+                                              "block": {
+                                                "type": "lcg",
+                                                "id": "ly/qw#v,waJJq:]LG?f9",
+                                                "extraState": "Ib|KAjSLM.8[FOSKO|43VD",
+                                                "fields": {
+                                                  "VR": "teams"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "V2": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "TORcF2Z-hU%.6jUB#{]S",
+                                          "extraState": "number"
+                                        },
+                                        "block": {
+                                          "type": "ipi",
+                                          "id": "Lf+[Y(*fxC)iQ#bFYY*3",
+                                          "fields": {
+                                            "V": 2
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "D": {
+                                  "block": {
+                                    "type": "lcs",
+                                    "id": "zdB_V/,Ts$qOBY2:%/OC",
+                                    "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                    "fields": {
+                                      "VR": "team2",
+                                      "O": "UK"
+                                    },
+                                    "inputs": {
+                                      "V": {
+                                        "shadow": {
+                                          "type": "tys",
+                                          "id": "4THuNs`%zv(GbID32/mG",
+                                          "extraState": "Team"
+                                        },
+                                        "block": {
+                                          "type": "v",
+                                          "id": ":dNTp.t53m2H;*$4(gl)",
+                                          "extraState": {
+                                            "X": 67,
+                                            "L": [
+                                              1,
+                                              2
+                                            ],
+                                            "T": "ListGetElement",
+                                            "OT": null
+                                          },
+                                          "inputs": {
+                                            "P1": {
+                                              "shadow": {
+                                                "type": "tys",
+                                                "id": "Resbog*k8+72}iY~#]v)",
+                                                "extraState": "List"
+                                              },
+                                              "block": {
+                                                "type": "lcg",
+                                                "id": "F8TNdYpWWbb47T,i$dv-",
+                                                "extraState": "Ib|KAjSLM.8[FOSKO|43VD",
+                                                "fields": {
+                                                  "VR": "teams"
+                                                }
+                                              }
+                                            },
+                                            "P2": {
+                                              "shadow": {
+                                                "type": "ipi",
+                                                "id": "7lFz@1#g!MwWI~Ol|SZ;",
+                                                "fields": {
+                                                  "V": 1
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "lcd",
+                                  "id": "1l2igBm{Iv(aPE^rX5Ik",
+                                  "fields": {
+                                    "VD": {
+                                      "name": "after1",
+                                      "type": "Int"
+                                    },
+                                    "T": "Int"
+                                  },
+                                  "inputs": {
+                                    "V": {
+                                      "shadow": {
+                                        "type": "tyd",
+                                        "id": "JB_r9UX6hI0HkpC~@Z`T",
+                                        "extraState": "Int"
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "lcd",
+                                      "id": "E+$-1w6euqUU~mBf08W+",
+                                      "fields": {
+                                        "VD": {
+                                          "name": "before1",
+                                          "type": "Int"
+                                        },
+                                        "T": "Int"
+                                      },
+                                      "inputs": {
+                                        "V": {
+                                          "shadow": {
+                                            "type": "tyd",
+                                            "id": "aEI}?DqjC+T!Ta{qBt.p",
+                                            "extraState": "Int"
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "lcd",
+                                          "id": ",*S-O3i/1+WVNqCr^]L-",
+                                          "fields": {
+                                            "VD": {
+                                              "name": "after2",
+                                              "type": "Int"
+                                            },
+                                            "T": "Int"
+                                          },
+                                          "inputs": {
+                                            "V": {
+                                              "shadow": {
+                                                "type": "tyd",
+                                                "id": ".*zR,W3rGWyNUrstQuG~",
+                                                "extraState": "Int"
+                                              }
+                                            }
+                                          },
+                                          "next": {
+                                            "block": {
+                                              "type": "lcd",
+                                              "id": "Y#l1O)Xotn+8+6L)Cy+N",
+                                              "fields": {
+                                                "VD": {
+                                                  "name": "before2",
+                                                  "type": "Int"
+                                                },
+                                                "T": "Int"
+                                              },
+                                              "inputs": {
+                                                "V": {
+                                                  "shadow": {
+                                                    "type": "tyd",
+                                                    "id": "||4Rq3V!sR1SKLUN+v?~",
+                                                    "extraState": "Int"
+                                                  }
+                                                }
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "ife1",
+                                                  "id": "%--gJFyly2i,KO#^(W0Q",
+                                                  "extraState": {
+                                                    "X": 1,
+                                                    "CIDS": []
+                                                  },
+                                                  "inputs": {
+                                                    "C": {
+                                                      "shadow": {
+                                                        "type": "tys",
+                                                        "id": "7#?=LT!b{.ni,s3eaqOD",
+                                                        "extraState": "bool"
+                                                      },
+                                                      "block": {
+                                                        "type": "v",
+                                                        "id": "OM2c73`8U$$[/V;(p4ou",
+                                                        "extraState": {
+                                                          "X": 72,
+                                                          "L": [
+                                                            1
+                                                          ],
+                                                          "T": "Not",
+                                                          "OT": null
+                                                        },
+                                                        "inputs": {
+                                                          "P1": {
+                                                            "shadow": {
+                                                              "type": "ipb",
+                                                              "id": "5jH_mZ=4)F7i{M9lNdSM",
+                                                              "fields": {
+                                                                "V": "F"
+                                                              }
+                                                            },
+                                                            "block": {
+                                                              "type": "v",
+                                                              "id": "*:KQh.zNdWjJ:HGYT0VC",
+                                                              "extraState": {
+                                                                "X": 70,
+                                                                "L": [
+                                                                  1
+                                                                ],
+                                                                "T": "IsNil",
+                                                                "OT": null
+                                                              },
+                                                              "inputs": {
+                                                                "P1": {
+                                                                  "shadow": {
+                                                                    "type": "tys",
+                                                                    "id": "ap4ttu,-k4NShYVLWT~B",
+                                                                    "extraState": "Object"
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "lcg",
+                                                                    "id": "ewOV*Tq3wj4p8R%9L*5C",
+                                                                    "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                    "fields": {
+                                                                      "VR": "team1"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "D": {
+                                                      "block": {
+                                                        "type": "lcs",
+                                                        "id": "j[HG2T^H!qNsKy)oC~{c",
+                                                        "extraState": "1l2igBm{Iv(aPE^rX5IkVD",
+                                                        "fields": {
+                                                          "VR": "after1",
+                                                          "O": "UK"
+                                                        },
+                                                        "inputs": {
+                                                          "V": {
+                                                            "shadow": {
+                                                              "type": "tys",
+                                                              "id": "3`O$zI_)0`+5rztak~cg",
+                                                              "extraState": "Int"
+                                                            },
+                                                            "block": {
+                                                              "type": "prg",
+                                                              "id": "lJ0[aNYNLV?VIc3Kwa{r",
+                                                              "extraState": {
+                                                                "X": 1,
+                                                                "T": "Int"
+                                                              },
+                                                              "fields": {
+                                                                "P": "PROP_25390066:Team"
+                                                              },
+                                                              "inputs": {
+                                                                "H": {
+                                                                  "shadow": {
+                                                                    "type": "tys",
+                                                                    "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                    "extraState": "Component"
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "lcg",
+                                                                    "id": "C]e@K5C+9E.YS;[3]SyD",
+                                                                    "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                    "fields": {
+                                                                      "VR": "team1"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "next": {
+                                                          "block": {
+                                                            "type": "ife1",
+                                                            "id": "[_Lz(W-aTA0s8N3$qA]2",
+                                                            "extraState": {
+                                                              "X": 2,
+                                                              "CIDS": []
+                                                            },
+                                                            "inputs": {
+                                                              "C": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "/,xfuLV4}c`wfrz__RwX",
+                                                                  "extraState": "bool"
+                                                                },
+                                                                "block": {
+                                                                  "type": "prg",
+                                                                  "id": "lspNA9/9EN-KT?3aPAKP",
+                                                                  "extraState": {
+                                                                    "X": 1,
+                                                                    "T": "Bool"
+                                                                  },
+                                                                  "fields": {
+                                                                    "P": "IsACE:Team"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "H": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": ":GWS?318u3Odk,T71P;e",
+                                                                        "extraState": "Component"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "@R0~j1^9P7?0E4!y@[NL",
+                                                                        "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                        "fields": {
+                                                                          "VR": "team1"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "D": {
+                                                                "block": {
+                                                                  "type": "lcs",
+                                                                  "id": "*p/a+]t4RN@g0IK/5:bI",
+                                                                  "extraState": "E+$-1w6euqUU~mBf08W+VD",
+                                                                  "fields": {
+                                                                    "VR": "before1",
+                                                                    "O": "UK"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "V": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "(1tI{h::0%w9]HeN[d+;",
+                                                                        "extraState": "Int"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "prg",
+                                                                        "id": "Uu,LaA0?Bb%a58`Fn1=(",
+                                                                        "extraState": {
+                                                                          "X": 1,
+                                                                          "T": "Int"
+                                                                        },
+                                                                        "fields": {
+                                                                          "P": "PROP_25390066:Team"
+                                                                        },
+                                                                        "inputs": {
+                                                                          "H": {
+                                                                            "shadow": {
+                                                                              "type": "tys",
+                                                                              "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                              "extraState": "Component"
+                                                                            },
+                                                                            "block": {
+                                                                              "type": "lcg",
+                                                                              "id": "VkcuTUeh~k^)/%rRtu5L",
+                                                                              "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                              "fields": {
+                                                                                "VR": "team1"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "D_else": {
+                                                                "block": {
+                                                                  "type": "lcs",
+                                                                  "id": "t7mV4=v|t9K_3q]KI!:^",
+                                                                  "extraState": "E+$-1w6euqUU~mBf08W+VD",
+                                                                  "fields": {
+                                                                    "VR": "before1",
+                                                                    "O": "UK"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "V": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "J$SIA)?(Ob~G!9a_tXtj",
+                                                                        "extraState": "Int"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "v",
+                                                                        "id": "`-_FREpMmz;)_sEIU:}p",
+                                                                        "extraState": {
+                                                                          "X": 505,
+                                                                          "L": [
+                                                                            1,
+                                                                            2
+                                                                          ],
+                                                                          "T": "Max",
+                                                                          "OT": null
+                                                                        },
+                                                                        "inputs": {
+                                                                          "P1": {
+                                                                            "shadow": {
+                                                                              "type": "ipn",
+                                                                              "id": "Gh;1yB.avyX#7_#NCdqe",
+                                                                              "fields": {
+                                                                                "V": "0"
+                                                                              }
+                                                                            },
+                                                                            "block": {
+                                                                              "type": "opa",
+                                                                              "id": ":v3!zQAG7m0}KA~PFJBu",
+                                                                              "extraState": {
+                                                                                "X": 1
+                                                                              },
+                                                                              "fields": {
+                                                                                "O": "SU"
+                                                                              },
+                                                                              "inputs": {
+                                                                                "V1": {
+                                                                                  "shadow": {
+                                                                                    "type": "ipn",
+                                                                                    "id": "VAbLiNK@$.|HLUJ-1hgH",
+                                                                                    "fields": {
+                                                                                      "V": "0"
+                                                                                    }
+                                                                                  },
+                                                                                  "block": {
+                                                                                    "type": "lcg",
+                                                                                    "id": "a=hl~+z6[d%oQ;7,Y-6?",
+                                                                                    "extraState": "1l2igBm{Iv(aPE^rX5IkVD",
+                                                                                    "fields": {
+                                                                                      "VR": "after1"
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "V2": {
+                                                                                  "shadow": {
+                                                                                    "type": "ipn",
+                                                                                    "id": "!I9i$,EN%tyz@da0n(!~",
+                                                                                    "fields": {
+                                                                                      "V": "1"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "P2": {
+                                                                            "shadow": {
+                                                                              "type": "ipn",
+                                                                              "id": "0sH`NFjXJ[NUw4QY-}DP",
+                                                                              "fields": {
+                                                                                "V": "0"
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "ife1",
+                                                      "id": "%%n8IYl=$WW+CS%PRJ);",
+                                                      "extraState": {
+                                                        "X": 1,
+                                                        "CIDS": []
+                                                      },
+                                                      "inputs": {
+                                                        "C": {
+                                                          "shadow": {
+                                                            "type": "tys",
+                                                            "id": "7#?=LT!b{.ni,s3eaqOD",
+                                                            "extraState": "bool"
+                                                          },
+                                                          "block": {
+                                                            "type": "v",
+                                                            "id": "ehD:,Id.JBI]XuM#:L/2",
+                                                            "extraState": {
+                                                              "X": 72,
+                                                              "L": [
+                                                                1
+                                                              ],
+                                                              "T": "Not",
+                                                              "OT": null
+                                                            },
+                                                            "inputs": {
+                                                              "P1": {
+                                                                "shadow": {
+                                                                  "type": "ipb",
+                                                                  "id": "5jH_mZ=4)F7i{M9lNdSM",
+                                                                  "fields": {
+                                                                    "V": "F"
+                                                                  }
+                                                                },
+                                                                "block": {
+                                                                  "type": "v",
+                                                                  "id": "F0+}e7d;I=GW4`E|_lOG",
+                                                                  "extraState": {
+                                                                    "X": 70,
+                                                                    "L": [
+                                                                      1
+                                                                    ],
+                                                                    "T": "IsNil",
+                                                                    "OT": null
+                                                                  },
+                                                                  "inputs": {
+                                                                    "P1": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "ap4ttu,-k4NShYVLWT~B",
+                                                                        "extraState": "Object"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "%@Mwav-nb]e-8Ua]C)ym",
+                                                                        "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                        "fields": {
+                                                                          "VR": "team2"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "D": {
+                                                          "block": {
+                                                            "type": "lcs",
+                                                            "id": "t*^.fP4`iak;(YZ0Yxdm",
+                                                            "extraState": ",*S-O3i/1+WVNqCr^]L-VD",
+                                                            "fields": {
+                                                              "VR": "after2",
+                                                              "O": "UK"
+                                                            },
+                                                            "inputs": {
+                                                              "V": {
+                                                                "shadow": {
+                                                                  "type": "tys",
+                                                                  "id": "6oSY@bMtnW_{KcEFcI`6",
+                                                                  "extraState": "Int"
+                                                                },
+                                                                "block": {
+                                                                  "type": "prg",
+                                                                  "id": ";MamGX{30=qoYgw`%YkM",
+                                                                  "extraState": {
+                                                                    "X": 1,
+                                                                    "T": "Int"
+                                                                  },
+                                                                  "fields": {
+                                                                    "P": "PROP_25390066:Team"
+                                                                  },
+                                                                  "inputs": {
+                                                                    "H": {
+                                                                      "shadow": {
+                                                                        "type": "tys",
+                                                                        "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                        "extraState": "Component"
+                                                                      },
+                                                                      "block": {
+                                                                        "type": "lcg",
+                                                                        "id": "0P1n12p;lvc%XCG%SdcU",
+                                                                        "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                        "fields": {
+                                                                          "VR": "team2"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "ife1",
+                                                                "id": ":uE8njl0+!x0wY+0e?G/",
+                                                                "extraState": {
+                                                                  "X": 2,
+                                                                  "CIDS": []
+                                                                },
+                                                                "inputs": {
+                                                                  "C": {
+                                                                    "shadow": {
+                                                                      "type": "tys",
+                                                                      "id": "/,xfuLV4}c`wfrz__RwX",
+                                                                      "extraState": "bool"
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "prg",
+                                                                      "id": "-O-vIB5SN{lypDWBwm@w",
+                                                                      "extraState": {
+                                                                        "X": 1,
+                                                                        "T": "Bool"
+                                                                      },
+                                                                      "fields": {
+                                                                        "P": "IsACE:Team"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "H": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": ":GWS?318u3Odk,T71P;e",
+                                                                            "extraState": "Component"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "uK7#){B~|2#rO)[OmBN@",
+                                                                            "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                            "fields": {
+                                                                              "VR": "team2"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "D": {
+                                                                    "block": {
+                                                                      "type": "lcs",
+                                                                      "id": "+d]G63HHNj,.;}1Juj6F",
+                                                                      "extraState": "Y#l1O)Xotn+8+6L)Cy+NVD",
+                                                                      "fields": {
+                                                                        "VR": "before2",
+                                                                        "O": "UK"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "V": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "Z*@VB0kiOC;ZvL#WJ;t1",
+                                                                            "extraState": "Int"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "prg",
+                                                                            "id": "NsR=$C;-ghe|-ehv.US4",
+                                                                            "extraState": {
+                                                                              "X": 1,
+                                                                              "T": "Int"
+                                                                            },
+                                                                            "fields": {
+                                                                              "P": "PROP_25390066:Team"
+                                                                            },
+                                                                            "inputs": {
+                                                                              "H": {
+                                                                                "shadow": {
+                                                                                  "type": "tys",
+                                                                                  "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                                  "extraState": "Component"
+                                                                                },
+                                                                                "block": {
+                                                                                  "type": "lcg",
+                                                                                  "id": "l/MuVM}!BV}Fq5cso$r[",
+                                                                                  "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                                  "fields": {
+                                                                                    "VR": "team2"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "D_else": {
+                                                                    "block": {
+                                                                      "type": "lcs",
+                                                                      "id": "MS2jOCS,sLqX}*[@Au}2",
+                                                                      "extraState": "Y#l1O)Xotn+8+6L)Cy+NVD",
+                                                                      "fields": {
+                                                                        "VR": "before2",
+                                                                        "O": "UK"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "V": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "Z*@VB0kiOC;ZvL#WJ;t1",
+                                                                            "extraState": "Int"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "v",
+                                                                            "id": "7c7V?GESHcLnbC2s}qwF",
+                                                                            "extraState": {
+                                                                              "X": 505,
+                                                                              "L": [
+                                                                                1,
+                                                                                2
+                                                                              ],
+                                                                              "T": "Max",
+                                                                              "OT": null
+                                                                            },
+                                                                            "inputs": {
+                                                                              "P1": {
+                                                                                "shadow": {
+                                                                                  "type": "ipn",
+                                                                                  "id": "Gh;1yB.avyX#7_#NCdqe",
+                                                                                  "fields": {
+                                                                                    "V": "0"
+                                                                                  }
+                                                                                },
+                                                                                "block": {
+                                                                                  "type": "opa",
+                                                                                  "id": "_|jLo}!n.g=1zUx.?5#1",
+                                                                                  "extraState": {
+                                                                                    "X": 1
+                                                                                  },
+                                                                                  "fields": {
+                                                                                    "O": "SU"
+                                                                                  },
+                                                                                  "inputs": {
+                                                                                    "V1": {
+                                                                                      "shadow": {
+                                                                                        "type": "ipn",
+                                                                                        "id": "VAbLiNK@$.|HLUJ-1hgH",
+                                                                                        "fields": {
+                                                                                          "V": "0"
+                                                                                        }
+                                                                                      },
+                                                                                      "block": {
+                                                                                        "type": "lcg",
+                                                                                        "id": "LeNuM[`];MpD$#^8={V5",
+                                                                                        "extraState": ",*S-O3i/1+WVNqCr^]L-VD",
+                                                                                        "fields": {
+                                                                                          "VR": "after2"
+                                                                                        }
+                                                                                      }
+                                                                                    },
+                                                                                    "V2": {
+                                                                                      "shadow": {
+                                                                                        "type": "ipn",
+                                                                                        "id": "eqgp*0(pnO+-(S]8R@/G",
+                                                                                        "fields": {
+                                                                                          "V": "1"
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              "P2": {
+                                                                                "shadow": {
+                                                                                  "type": "ipn",
+                                                                                  "id": "pl2`[%2-hgNR[u?tys,d",
+                                                                                  "fields": {
+                                                                                    "V": "0"
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "ife1",
+                                                          "id": "|o}_|%#G|][k;55Z7.z|",
+                                                          "extraState": {
+                                                            "X": 1,
+                                                            "CIDS": []
+                                                          },
+                                                          "inputs": {
+                                                            "C": {
+                                                              "shadow": {
+                                                                "type": "tys",
+                                                                "id": "qHWJ@6$lUb2~[m7*{*+u",
+                                                                "extraState": "bool"
+                                                              },
+                                                              "block": {
+                                                                "type": "v",
+                                                                "id": "@Q-^5MgS+9g@7gYd2{)O",
+                                                                "extraState": {
+                                                                  "X": 72,
+                                                                  "L": [
+                                                                    1
+                                                                  ],
+                                                                  "T": "Not",
+                                                                  "OT": null
+                                                                },
+                                                                "inputs": {
+                                                                  "P1": {
+                                                                    "shadow": {
+                                                                      "type": "ipb",
+                                                                      "id": "5jH_mZ=4)F7i{M9lNdSM",
+                                                                      "fields": {
+                                                                        "V": "F"
+                                                                      }
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "v",
+                                                                      "id": "YrrDg;9(Ef^|@M8;b9%6",
+                                                                      "extraState": {
+                                                                        "X": 70,
+                                                                        "L": [
+                                                                          1
+                                                                        ],
+                                                                        "T": "IsNil",
+                                                                        "OT": null
+                                                                      },
+                                                                      "inputs": {
+                                                                        "P1": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "ap4ttu,-k4NShYVLWT~B",
+                                                                            "extraState": "Object"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "j,7wO6eM07g*2)Nm)SCB",
+                                                                            "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                            "fields": {
+                                                                              "VR": "team1"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "D": {
+                                                              "block": {
+                                                                "type": "lpe",
+                                                                "id": "7[K7x_wT]tL05pB_#@z-",
+                                                                "fields": {
+                                                                  "X": {
+                                                                    "name": "key",
+                                                                    "type": "Int"
+                                                                  },
+                                                                  "I": {
+                                                                    "name": "player",
+                                                                    "type": "Player"
+                                                                  }
+                                                                },
+                                                                "inputs": {
+                                                                  "RN": {
+                                                                    "shadow": {
+                                                                      "type": "tys",
+                                                                      "id": "gfZ8;Hu]5DptS~d-(LI$",
+                                                                      "extraState": "List|Map__List and Dictionary"
+                                                                    },
+                                                                    "block": {
+                                                                      "type": "prg",
+                                                                      "id": "iKX%F3D/42q{?RO!6$2P",
+                                                                      "extraState": {
+                                                                        "X": 1,
+                                                                        "T": "ListT_Player"
+                                                                      },
+                                                                      "fields": {
+                                                                        "P": "AllPlayers:Team"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "H": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                            "extraState": "Component"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "o%`4i:0hG%g5fs:#~xo*",
+                                                                            "extraState": "lk=ruVL/U6UPma7A2y{3VD",
+                                                                            "fields": {
+                                                                              "VR": "team1"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "D": {
+                                                                    "block": {
+                                                                      "type": "a",
+                                                                      "id": "`K@4T=fZS$CVLXRI+98~",
+                                                                      "extraState": {
+                                                                        "X": 32,
+                                                                        "L": [
+                                                                          1,
+                                                                          2,
+                                                                          3
+                                                                        ],
+                                                                        "T": "CreateInternalHud",
+                                                                        "OT": null
+                                                                      },
+                                                                      "fields": {
+                                                                        "P1": {
+                                                                          "name": "HUD",
+                                                                          "type": "CSRoundResultHud"
+                                                                        }
+                                                                      },
+                                                                      "inputs": {
+                                                                        "P2": {
+                                                                          "shadow": {
+                                                                            "type": "tys",
+                                                                            "id": "c.b#_;+FG*T}(Y@u(tJ?",
+                                                                            "extraState": "Player"
+                                                                          },
+                                                                          "block": {
+                                                                            "type": "lcg",
+                                                                            "id": "`^;bd$7k3mCKR[(0RlB0",
+                                                                            "extraState": "7[K7x_wT]tL05pB_#@z-I",
+                                                                            "fields": {
+                                                                              "VR": "player"
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "P3": {
+                                                                          "shadow": {
+                                                                            "type": "pih",
+                                                                            "id": "gL@NJ[4{)iGHF8VJ`N~0",
+                                                                            "fields": {
+                                                                              "V": "InternalHud_CSRoundResultHud"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "next": {
+                                                                        "block": {
+                                                                          "type": "prs",
+                                                                          "id": "E@c5~sUepxL4d[Y;CwP+",
+                                                                          "fields": {
+                                                                            "P": "LeftScore:CSRoundResultHud",
+                                                                            "O": "UK"
+                                                                          },
+                                                                          "inputs": {
+                                                                            "H": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "X*g{e#c3}?`kPM~g)cW4",
+                                                                                "extraState": "Component"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "lcg",
+                                                                                "id": "!l~J(Yyp7+AkWk~.}_u:",
+                                                                                "extraState": "`K@4T=fZS$CVLXRI+98~P1",
+                                                                                "fields": {
+                                                                                  "VR": "HUD"
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "V": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "7h?`K!QgrN;?`6#kv^!i",
+                                                                                "extraState": "String"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "v",
+                                                                                "id": "J1W%w(WT+m^EP~H4(fdA",
+                                                                                "extraState": {
+                                                                                  "X": 198,
+                                                                                  "L": [
+                                                                                    1
+                                                                                  ],
+                                                                                  "T": "ToString",
+                                                                                  "OT": null
+                                                                                },
+                                                                                "inputs": {
+                                                                                  "P1": {
+                                                                                    "shadow": {
+                                                                                      "type": "tys",
+                                                                                      "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                      "extraState": "Object"
+                                                                                    },
+                                                                                    "block": {
+                                                                                      "type": "lcg",
+                                                                                      "id": "44Er6~~8iv^@rqPZL@av",
+                                                                                      "extraState": "E+$-1w6euqUU~mBf08W+VD",
+                                                                                      "fields": {
+                                                                                        "VR": "before1"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "next": {
+                                                                            "block": {
+                                                                              "type": "prs",
+                                                                              "id": "mE:-eO-ge;Y/tDX=cg:l",
+                                                                              "fields": {
+                                                                                "P": "LeftScoreAfter:CSRoundResultHud",
+                                                                                "O": "UK"
+                                                                              },
+                                                                              "inputs": {
+                                                                                "H": {
+                                                                                  "shadow": {
+                                                                                    "type": "tys",
+                                                                                    "id": "_JoJ%V1l~H4YNKE11fWu",
+                                                                                    "extraState": "Component"
+                                                                                  },
+                                                                                  "block": {
+                                                                                    "type": "lcg",
+                                                                                    "id": "sDk^Km)Qf2X:IBz:ox^k",
+                                                                                    "extraState": "`K@4T=fZS$CVLXRI+98~P1",
+                                                                                    "fields": {
+                                                                                      "VR": "HUD"
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "V": {
+                                                                                  "shadow": {
+                                                                                    "type": "tys",
+                                                                                    "id": "LK$mcT_q;H*JVtkG~gPI",
+                                                                                    "extraState": "String"
+                                                                                  },
+                                                                                  "block": {
+                                                                                    "type": "v",
+                                                                                    "id": "e$ci#edk4@qpJ$)Wmnfe",
+                                                                                    "extraState": {
+                                                                                      "X": 198,
+                                                                                      "L": [
+                                                                                        1
+                                                                                      ],
+                                                                                      "T": "ToString",
+                                                                                      "OT": null
+                                                                                    },
+                                                                                    "inputs": {
+                                                                                      "P1": {
+                                                                                        "shadow": {
+                                                                                          "type": "tys",
+                                                                                          "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                          "extraState": "Object"
+                                                                                        },
+                                                                                        "block": {
+                                                                                          "type": "lcg",
+                                                                                          "id": "c$!%k(bJwmWNScVl#J2d",
+                                                                                          "extraState": "1l2igBm{Iv(aPE^rX5IkVD",
+                                                                                          "fields": {
+                                                                                            "VR": "after1"
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              "next": {
+                                                                                "block": {
+                                                                                  "type": "prs",
+                                                                                  "id": "?YR74*%b!mpJLfT?aO!7",
+                                                                                  "fields": {
+                                                                                    "P": "RightScore:CSRoundResultHud",
+                                                                                    "O": "UK"
+                                                                                  },
+                                                                                  "inputs": {
+                                                                                    "H": {
+                                                                                      "shadow": {
+                                                                                        "type": "tys",
+                                                                                        "id": "X*g{e#c3}?`kPM~g)cW4",
+                                                                                        "extraState": "Component"
+                                                                                      },
+                                                                                      "block": {
+                                                                                        "type": "lcg",
+                                                                                        "id": "*8$),mfJQ4ZcUc7xMfO5",
+                                                                                        "extraState": "`K@4T=fZS$CVLXRI+98~P1",
+                                                                                        "fields": {
+                                                                                          "VR": "HUD"
+                                                                                        }
+                                                                                      }
+                                                                                    },
+                                                                                    "V": {
+                                                                                      "shadow": {
+                                                                                        "type": "tys",
+                                                                                        "id": "*|y6L]qfINTL~fnp)Yv9",
+                                                                                        "extraState": "String"
+                                                                                      },
+                                                                                      "block": {
+                                                                                        "type": "v",
+                                                                                        "id": "cevUGLaE2UFC`06(96`#",
+                                                                                        "extraState": {
+                                                                                          "X": 198,
+                                                                                          "L": [
+                                                                                            1
+                                                                                          ],
+                                                                                          "T": "ToString",
+                                                                                          "OT": null
+                                                                                        },
+                                                                                        "inputs": {
+                                                                                          "P1": {
+                                                                                            "shadow": {
+                                                                                              "type": "tys",
+                                                                                              "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                              "extraState": "Object"
+                                                                                            },
+                                                                                            "block": {
+                                                                                              "type": "lcg",
+                                                                                              "id": "_x!c.hOPMS/l+!rCZ9b~",
+                                                                                              "extraState": "Y#l1O)Xotn+8+6L)Cy+NVD",
+                                                                                              "fields": {
+                                                                                                "VR": "before2"
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "next": {
+                                                                                    "block": {
+                                                                                      "type": "prs",
+                                                                                      "id": "]$|QZ5OV.W-`E[Fyn%n+",
+                                                                                      "fields": {
+                                                                                        "P": "RightScoreAfter:CSRoundResultHud",
+                                                                                        "O": "UK"
+                                                                                      },
+                                                                                      "inputs": {
+                                                                                        "H": {
+                                                                                          "shadow": {
+                                                                                            "type": "tys",
+                                                                                            "id": "_JoJ%V1l~H4YNKE11fWu",
+                                                                                            "extraState": "Component"
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "lcg",
+                                                                                            "id": "lnqWg_^-V|)a9azE49Sl",
+                                                                                            "extraState": "`K@4T=fZS$CVLXRI+98~P1",
+                                                                                            "fields": {
+                                                                                              "VR": "HUD"
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "V": {
+                                                                                          "shadow": {
+                                                                                            "type": "tys",
+                                                                                            "id": "X)`[.12hy)ZI;.swIS$%",
+                                                                                            "extraState": "String"
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "v",
+                                                                                            "id": "6)M(}9vue7STILB]5s4o",
+                                                                                            "extraState": {
+                                                                                              "X": 198,
+                                                                                              "L": [
+                                                                                                1
+                                                                                              ],
+                                                                                              "T": "ToString",
+                                                                                              "OT": null
+                                                                                            },
+                                                                                            "inputs": {
+                                                                                              "P1": {
+                                                                                                "shadow": {
+                                                                                                  "type": "tys",
+                                                                                                  "id": "``S4J9wbH%eq%qPdUBOI",
+                                                                                                  "extraState": "Object"
+                                                                                                },
+                                                                                                "block": {
+                                                                                                  "type": "lcg",
+                                                                                                  "id": "A}NXJnP-iJ^p-xj)@]2Y",
+                                                                                                  "extraState": ",*S-O3i/1+WVNqCr^]L-VD",
+                                                                                                  "fields": {
+                                                                                                    "VR": "after2"
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "next": {
+                                                                                        "block": {
+                                                                                          "type": "fca",
+                                                                                          "id": ":0!GKY,izkBdFMUJ1LX6",
+                                                                                          "extraState": {
+                                                                                            "id": "]:6xWOO(#F.d8!R%b32,",
+                                                                                            "name": "DeleteEntity",
+                                                                                            "params": [
+                                                                                              {
+                                                                                                "id": "_arg8448",
+                                                                                                "name": "entity",
+                                                                                                "type": "Object",
+                                                                                                "isOut": false
+                                                                                              },
+                                                                                              {
+                                                                                                "id": "_arg1871",
+                                                                                                "name": "time",
+                                                                                                "type": "Int",
+                                                                                                "isOut": false
+                                                                                              }
+                                                                                            ],
+                                                                                            "returnType": null
+                                                                                          },
+                                                                                          "fields": {
+                                                                                            "T": "S"
+                                                                                          },
+                                                                                          "inputs": {
+                                                                                            "_arg8448": {
+                                                                                              "shadow": {
+                                                                                                "type": "tys",
+                                                                                                "id": "AnWF4A}pu2-4!3`_YH6O",
+                                                                                                "extraState": "Object"
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "lcg",
+                                                                                                "id": "1@H@[Xw{[cM3`C[`kgLK",
+                                                                                                "extraState": "`K@4T=fZS$CVLXRI+98~P1",
+                                                                                                "fields": {
+                                                                                                  "VR": "HUD"
+                                                                                                }
+                                                                                              }
+                                                                                            },
+                                                                                            "_arg1871": {
+                                                                                              "shadow": {
+                                                                                                "type": "tys",
+                                                                                                "id": "NbG3RL+e7TATB!u;O])@",
+                                                                                                "extraState": "Int"
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "ipi",
+                                                                                                "id": "n-SZg7;A29#f0Ui=|ViM",
+                                                                                                "fields": {
+                                                                                                  "V": 3
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "next": {
+                                                            "block": {
+                                                              "type": "ife1",
+                                                              "id": "U2A2t3loAm~FQ63n=P9l",
+                                                              "extraState": {
+                                                                "X": 1,
+                                                                "CIDS": []
+                                                              },
+                                                              "inputs": {
+                                                                "C": {
+                                                                  "shadow": {
+                                                                    "type": "tys",
+                                                                    "id": "7#?=LT!b{.ni,s3eaqOD",
+                                                                    "extraState": "bool"
+                                                                  },
+                                                                  "block": {
+                                                                    "type": "v",
+                                                                    "id": "6cCL~S(SY~hSW~qaFNCW",
+                                                                    "extraState": {
+                                                                      "X": 72,
+                                                                      "L": [
+                                                                        1
+                                                                      ],
+                                                                      "T": "Not",
+                                                                      "OT": null
+                                                                    },
+                                                                    "inputs": {
+                                                                      "P1": {
+                                                                        "shadow": {
+                                                                          "type": "ipb",
+                                                                          "id": "5jH_mZ=4)F7i{M9lNdSM",
+                                                                          "fields": {
+                                                                            "V": "F"
+                                                                          }
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "v",
+                                                                          "id": "Or9zaAcR_q0X33HP`;Uq",
+                                                                          "extraState": {
+                                                                            "X": 70,
+                                                                            "L": [
+                                                                              1
+                                                                            ],
+                                                                            "T": "IsNil",
+                                                                            "OT": null
+                                                                          },
+                                                                          "inputs": {
+                                                                            "P1": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "ap4ttu,-k4NShYVLWT~B",
+                                                                                "extraState": "Object"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "lcg",
+                                                                                "id": ";8H,/B|LaZ1l6Cr=)paG",
+                                                                                "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                                "fields": {
+                                                                                  "VR": "team2"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                },
+                                                                "D": {
+                                                                  "block": {
+                                                                    "type": "lpe",
+                                                                    "id": ";B~h^4m{._-$MN}GPs5B",
+                                                                    "fields": {
+                                                                      "X": {
+                                                                        "name": "key",
+                                                                        "type": "Int"
+                                                                      },
+                                                                      "I": {
+                                                                        "name": "player",
+                                                                        "type": "Player"
+                                                                      }
+                                                                    },
+                                                                    "inputs": {
+                                                                      "RN": {
+                                                                        "shadow": {
+                                                                          "type": "tys",
+                                                                          "id": "gfZ8;Hu]5DptS~d-(LI$",
+                                                                          "extraState": "List|Map__List and Dictionary"
+                                                                        },
+                                                                        "block": {
+                                                                          "type": "prg",
+                                                                          "id": ";Y=o`Pm,Ht1iGKl!YsK.",
+                                                                          "extraState": {
+                                                                            "X": 1,
+                                                                            "T": "ListT_Player"
+                                                                          },
+                                                                          "fields": {
+                                                                            "P": "AllPlayers:Team"
+                                                                          },
+                                                                          "inputs": {
+                                                                            "H": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "A;n.,?cc?H5I@])xw2NN",
+                                                                                "extraState": "Component"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "lcg",
+                                                                                "id": "O_}eCc~Dgj9ZO]10GK%N",
+                                                                                "extraState": "xE*Y{ccqick%xezBPC~aVD",
+                                                                                "fields": {
+                                                                                  "VR": "team2"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "D": {
+                                                                        "block": {
+                                                                          "type": "a",
+                                                                          "id": "]O%UY5HI)AT9x0/cfrFj",
+                                                                          "extraState": {
+                                                                            "X": 32,
+                                                                            "L": [
+                                                                              1,
+                                                                              2,
+                                                                              3
+                                                                            ],
+                                                                            "T": "CreateInternalHud",
+                                                                            "OT": null
+                                                                          },
+                                                                          "fields": {
+                                                                            "P1": {
+                                                                              "name": "HUD",
+                                                                              "type": "CSRoundResultHud"
+                                                                            }
+                                                                          },
+                                                                          "inputs": {
+                                                                            "P2": {
+                                                                              "shadow": {
+                                                                                "type": "tys",
+                                                                                "id": "c.b#_;+FG*T}(Y@u(tJ?",
+                                                                                "extraState": "Player"
+                                                                              },
+                                                                              "block": {
+                                                                                "type": "lcg",
+                                                                                "id": "eK`Sr?!.EG5Vs0!41#02",
+                                                                                "extraState": ";B~h^4m{._-$MN}GPs5BI",
+                                                                                "fields": {
+                                                                                  "VR": "player"
+                                                                                }
+                                                                              }
+                                                                            },
+                                                                            "P3": {
+                                                                              "shadow": {
+                                                                                "type": "pih",
+                                                                                "id": "~0K`62@3`vc0^$}-G)F0",
+                                                                                "fields": {
+                                                                                  "V": "InternalHud_CSRoundResultHud"
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          },
+                                                                          "next": {
+                                                                            "block": {
+                                                                              "type": "prs",
+                                                                              "id": "r;SsNP`k4D~n]Rlm}.6)",
+                                                                              "fields": {
+                                                                                "P": "RightScore:CSRoundResultHud",
+                                                                                "O": "UK"
+                                                                              },
+                                                                              "inputs": {
+                                                                                "H": {
+                                                                                  "shadow": {
+                                                                                    "type": "tys",
+                                                                                    "id": "X*g{e#c3}?`kPM~g)cW4",
+                                                                                    "extraState": "Component"
+                                                                                  },
+                                                                                  "block": {
+                                                                                    "type": "lcg",
+                                                                                    "id": "8d29Cbt!d61!TnR87C.%",
+                                                                                    "extraState": "]O%UY5HI)AT9x0/cfrFjP1",
+                                                                                    "fields": {
+                                                                                      "VR": "HUD"
+                                                                                    }
+                                                                                  }
+                                                                                },
+                                                                                "V": {
+                                                                                  "shadow": {
+                                                                                    "type": "tys",
+                                                                                    "id": "AZ,OfBaa*rzJfaj6rPMG",
+                                                                                    "extraState": "String"
+                                                                                  },
+                                                                                  "block": {
+                                                                                    "type": "v",
+                                                                                    "id": "D-qlA7F@$bc=7Oo[_|j9",
+                                                                                    "extraState": {
+                                                                                      "X": 198,
+                                                                                      "L": [
+                                                                                        1
+                                                                                      ],
+                                                                                      "T": "ToString",
+                                                                                      "OT": null
+                                                                                    },
+                                                                                    "inputs": {
+                                                                                      "P1": {
+                                                                                        "shadow": {
+                                                                                          "type": "tys",
+                                                                                          "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                          "extraState": "Object"
+                                                                                        },
+                                                                                        "block": {
+                                                                                          "type": "lcg",
+                                                                                          "id": "$.a9L;Xu{BVaZ#3Oa.@,",
+                                                                                          "extraState": "E+$-1w6euqUU~mBf08W+VD",
+                                                                                          "fields": {
+                                                                                            "VR": "before1"
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              },
+                                                                              "next": {
+                                                                                "block": {
+                                                                                  "type": "prs",
+                                                                                  "id": "=%Oi-Yb,kVH_Qq?W}/YH",
+                                                                                  "fields": {
+                                                                                    "P": "RightScoreAfter:CSRoundResultHud",
+                                                                                    "O": "UK"
+                                                                                  },
+                                                                                  "inputs": {
+                                                                                    "H": {
+                                                                                      "shadow": {
+                                                                                        "type": "tys",
+                                                                                        "id": "_JoJ%V1l~H4YNKE11fWu",
+                                                                                        "extraState": "Component"
+                                                                                      },
+                                                                                      "block": {
+                                                                                        "type": "lcg",
+                                                                                        "id": "7iOk^pOIhG//5]z@w,Ts",
+                                                                                        "extraState": "]O%UY5HI)AT9x0/cfrFjP1",
+                                                                                        "fields": {
+                                                                                          "VR": "HUD"
+                                                                                        }
+                                                                                      }
+                                                                                    },
+                                                                                    "V": {
+                                                                                      "shadow": {
+                                                                                        "type": "tys",
+                                                                                        "id": "5jj3lv,-O;yo=A^DwX${",
+                                                                                        "extraState": "String"
+                                                                                      },
+                                                                                      "block": {
+                                                                                        "type": "v",
+                                                                                        "id": "](zw`fiqqtywYGAh_[2Q",
+                                                                                        "extraState": {
+                                                                                          "X": 198,
+                                                                                          "L": [
+                                                                                            1
+                                                                                          ],
+                                                                                          "T": "ToString",
+                                                                                          "OT": null
+                                                                                        },
+                                                                                        "inputs": {
+                                                                                          "P1": {
+                                                                                            "shadow": {
+                                                                                              "type": "tys",
+                                                                                              "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                              "extraState": "Object"
+                                                                                            },
+                                                                                            "block": {
+                                                                                              "type": "lcg",
+                                                                                              "id": "^m-tMak6q:jt)j~p7+`h",
+                                                                                              "extraState": "1l2igBm{Iv(aPE^rX5IkVD",
+                                                                                              "fields": {
+                                                                                                "VR": "after1"
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  },
+                                                                                  "next": {
+                                                                                    "block": {
+                                                                                      "type": "prs",
+                                                                                      "id": "=JE--LF}Yin_x9%EJB*U",
+                                                                                      "fields": {
+                                                                                        "P": "LeftScore:CSRoundResultHud",
+                                                                                        "O": "UK"
+                                                                                      },
+                                                                                      "inputs": {
+                                                                                        "H": {
+                                                                                          "shadow": {
+                                                                                            "type": "tys",
+                                                                                            "id": "X*g{e#c3}?`kPM~g)cW4",
+                                                                                            "extraState": "Component"
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "lcg",
+                                                                                            "id": "~{~s4qk4;/)WfZzN[n!8",
+                                                                                            "extraState": "]O%UY5HI)AT9x0/cfrFjP1",
+                                                                                            "fields": {
+                                                                                              "VR": "HUD"
+                                                                                            }
+                                                                                          }
+                                                                                        },
+                                                                                        "V": {
+                                                                                          "shadow": {
+                                                                                            "type": "tys",
+                                                                                            "id": "67s:fvlS73Xv)mHoP0Qv",
+                                                                                            "extraState": "String"
+                                                                                          },
+                                                                                          "block": {
+                                                                                            "type": "v",
+                                                                                            "id": "=-4SIz4CaVTU|36BMksP",
+                                                                                            "extraState": {
+                                                                                              "X": 198,
+                                                                                              "L": [
+                                                                                                1
+                                                                                              ],
+                                                                                              "T": "ToString",
+                                                                                              "OT": null
+                                                                                            },
+                                                                                            "inputs": {
+                                                                                              "P1": {
+                                                                                                "shadow": {
+                                                                                                  "type": "tys",
+                                                                                                  "id": "qH,~Dvp#1Ah#Wzz@:,4,",
+                                                                                                  "extraState": "Object"
+                                                                                                },
+                                                                                                "block": {
+                                                                                                  "type": "lcg",
+                                                                                                  "id": "?U00s}g1@f_4Rv~,Sz9}",
+                                                                                                  "extraState": "Y#l1O)Xotn+8+6L)Cy+NVD",
+                                                                                                  "fields": {
+                                                                                                    "VR": "before2"
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      },
+                                                                                      "next": {
+                                                                                        "block": {
+                                                                                          "type": "prs",
+                                                                                          "id": "o8[=tp,xrlfaB]b`8#u%",
+                                                                                          "fields": {
+                                                                                            "P": "LeftScoreAfter:CSRoundResultHud",
+                                                                                            "O": "UK"
+                                                                                          },
+                                                                                          "inputs": {
+                                                                                            "H": {
+                                                                                              "shadow": {
+                                                                                                "type": "tys",
+                                                                                                "id": "_JoJ%V1l~H4YNKE11fWu",
+                                                                                                "extraState": "Component"
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "lcg",
+                                                                                                "id": "j{S_nJlqRMjJ3/i(v}k[",
+                                                                                                "extraState": "]O%UY5HI)AT9x0/cfrFjP1",
+                                                                                                "fields": {
+                                                                                                  "VR": "HUD"
+                                                                                                }
+                                                                                              }
+                                                                                            },
+                                                                                            "V": {
+                                                                                              "shadow": {
+                                                                                                "type": "tys",
+                                                                                                "id": "fGBlax?1-x2[+I$ubwBR",
+                                                                                                "extraState": "String"
+                                                                                              },
+                                                                                              "block": {
+                                                                                                "type": "v",
+                                                                                                "id": "[JDntfEtlBnl1L]sh98a",
+                                                                                                "extraState": {
+                                                                                                  "X": 198,
+                                                                                                  "L": [
+                                                                                                    1
+                                                                                                  ],
+                                                                                                  "T": "ToString",
+                                                                                                  "OT": null
+                                                                                                },
+                                                                                                "inputs": {
+                                                                                                  "P1": {
+                                                                                                    "shadow": {
+                                                                                                      "type": "tys",
+                                                                                                      "id": "``S4J9wbH%eq%qPdUBOI",
+                                                                                                      "extraState": "Object"
+                                                                                                    },
+                                                                                                    "block": {
+                                                                                                      "type": "lcg",
+                                                                                                      "id": "7YqlJH:H(1K3MGRWk,30",
+                                                                                                      "extraState": ",*S-O3i/1+WVNqCr^]L-VD",
+                                                                                                      "fields": {
+                                                                                                        "VR": "after2"
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          },
+                                                                                          "next": {
+                                                                                            "block": {
+                                                                                              "type": "fca",
+                                                                                              "id": "x8)1Rs=%5:wCw=V44,#k",
+                                                                                              "extraState": {
+                                                                                                "id": "]:6xWOO(#F.d8!R%b32,",
+                                                                                                "name": "DeleteEntity",
+                                                                                                "params": [
+                                                                                                  {
+                                                                                                    "id": "_arg8448",
+                                                                                                    "name": "entity",
+                                                                                                    "type": "Object",
+                                                                                                    "isOut": false
+                                                                                                  },
+                                                                                                  {
+                                                                                                    "id": "_arg1871",
+                                                                                                    "name": "time",
+                                                                                                    "type": "Int",
+                                                                                                    "isOut": false
+                                                                                                  }
+                                                                                                ],
+                                                                                                "returnType": null
+                                                                                              },
+                                                                                              "fields": {
+                                                                                                "T": "S"
+                                                                                              },
+                                                                                              "inputs": {
+                                                                                                "_arg8448": {
+                                                                                                  "shadow": {
+                                                                                                    "type": "tys",
+                                                                                                    "id": "eCTfhww9_GKc}d1Hoi{(",
+                                                                                                    "extraState": "Object"
+                                                                                                  },
+                                                                                                  "block": {
+                                                                                                    "type": "lcg",
+                                                                                                    "id": "!Rw(xF~}n,Jen18Kg*af",
+                                                                                                    "extraState": "]O%UY5HI)AT9x0/cfrFjP1",
+                                                                                                    "fields": {
+                                                                                                      "VR": "HUD"
+                                                                                                    }
+                                                                                                  }
+                                                                                                },
+                                                                                                "_arg1871": {
+                                                                                                  "shadow": {
+                                                                                                    "type": "tys",
+                                                                                                    "id": "}*3+yN+0Mt;(G(jC:nC^",
+                                                                                                    "extraState": "Int"
+                                                                                                  },
+                                                                                                  "block": {
+                                                                                                    "type": "ipi",
+                                                                                                    "id": "7g3PS[Wl}.d?ko8oOwKz",
+                                                                                                    "fields": {
+                                                                                                      "V": 3
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              }
+                                                                                            }
+                                                                                          }
+                                                                                        }
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "e",
+        "id": "2fkhj_Eos~%^!0zRA4rT",
+        "x": -638,
+        "y": 106,
+        "extraState": {
+          "X": 5,
+          "L": [
+            1
+          ],
+          "T": "OnPhaseStart",
+          "OT": null
+        },
+        "fields": {
+          "P1": {
+            "name": "Phase entity",
+            "type": "Phase"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "ife1",
+            "id": "YGyEuU95kCk2VL~(V-;b",
+            "extraState": {
+              "X": 1,
+              "CIDS": []
+            },
+            "inputs": {
+              "C": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "DKKly`:ses:]KD5Z-WC6",
+                  "extraState": "bool"
+                },
+                "block": {
+                  "type": "opc",
+                  "id": "!??=L%XQ(c^zVR^uFz}d",
+                  "fields": {
+                    "O": "EQ"
+                  },
+                  "inputs": {
+                    "V1": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": "j@Q-`N8{HYtCv@?(6Faa",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "prg",
+                        "id": "uIa7;A`I05#~3(nB`Kz,",
+                        "extraState": {
+                          "X": 1,
+                          "T": "Int"
+                        },
+                        "fields": {
+                          "P": "PhaseIndex:Phase"
+                        },
+                        "inputs": {
+                          "H": {
+                            "shadow": {
+                              "type": "tys",
+                              "id": "L5tc{W:%_?veM.[h:X2s",
+                              "extraState": "Component"
+                            },
+                            "block": {
+                              "type": "lcg",
+                              "id": ".)/reAq!x]AzJXm|:qED",
+                              "extraState": "2fkhj_Eos~%^!0zRA4rTP1",
+                              "fields": {
+                                "VR": "Phase entity"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "V2": {
+                      "shadow": {
+                        "type": "tys",
+                        "id": ";yNrwRSYGL-rO2rpIZW(",
+                        "extraState": "any"
+                      },
+                      "block": {
+                        "type": "ipe",
+                        "id": "g5|z(ML,ii09W+0`M7T!",
+                        "extraState": 10009,
+                        "fields": {
+                          "I": "bb246HJA"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "D": {
+                "block": {
+                  "type": "fca",
+                  "id": "~/hE~{bqMpU[sxfH@-K=",
+                  "extraState": {
+                    "id": "|g6o^[IR?*(*j/-oh?;v",
+                    "name": "ShowRoundResultBanner",
+                    "params": [],
+                    "returnType": null
+                  },
+                  "fields": {
+                    "T": "S"
+                  },
+                  "next": {
+                    "block": {
+                      "type": "a",
+                      "id": "ajLLO.8jjsiJLP_/|Y~s",
+                      "extraState": {
+                        "X": 30,
+                        "L": [
+                          1
+                        ],
+                        "T": "WaitForSeconds",
+                        "OT": null
+                      },
+                      "inputs": {
+                        "P1": {
+                          "shadow": {
+                            "type": "ipi",
+                            "id": "!+rLw,]:g`Qjy`F#3F@l",
+                            "fields": {
+                              "V": 2000
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "ife1",
+                          "id": "(![QB|i#4u77{9Tbu+`P",
+                          "extraState": {
+                            "X": 1,
+                            "CIDS": []
+                          },
+                          "inputs": {
+                            "C": {
+                              "shadow": {
+                                "type": "tys",
+                                "id": "B)36hh38Kr[-%kDR8Jo8",
+                                "extraState": "bool"
+                              },
+                              "block": {
+                                "type": "opc",
+                                "id": "T_wZp*|4b!yoH/=xs[[f",
+                                "fields": {
+                                  "O": "NE"
+                                },
+                                "inputs": {
+                                  "V1": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "FB-4xS-6|zRwdK1Bj{WV",
+                                      "extraState": "any"
+                                    },
+                                    "block": {
+                                      "type": "glg",
+                                      "id": "$~A.Kwz|BQzkmvj,9qrh",
+                                      "fields": {
+                                        "P": "PROP_89679389:Global"
+                                      }
+                                    }
+                                  },
+                                  "V2": {
+                                    "shadow": {
+                                      "type": "tys",
+                                      "id": "*+O[!xm#rREXIH8|.bKc",
+                                      "extraState": "any"
+                                    },
+                                    "block": {
+                                      "type": "ipb",
+                                      "id": "[9weO}S2jgS7J?YYbusG",
+                                      "fields": {
+                                        "V": "T"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "D": {
+                              "block": {
+                                "type": "fca",
+                                "id": "RmdKL!m-#0n,MbWj4xj;",
+                                "extraState": {
+                                  "id": "zha/#S0OH;7)fS!e}/,}",
+                                  "name": "ShowRoundResultScore",
+                                  "params": [],
+                                  "returnType": null
+                                },
+                                "fields": {
+                                  "T": "S"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "id": "vE26LzKGq",
+      "name": "Importance_Damage",
+      "type": "Int",
+      "value": 0
+    },
+    {
+      "id": "vCfV4MHfm",
+      "name": "Importance_Kill",
+      "type": "Int",
+      "value": 0
+    },
+    {
+      "id": "vatmhGxpp",
+      "name": "Importance_Dead",
+      "type": "Int",
+      "value": 0
+    },
+    {
+      "id": "vEvjYcmqG",
+      "name": "Importance_Assist",
+      "type": "Int",
+      "value": 0
+    }
+  ],
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "Global",
+    "isStatic": false,
+    "platform": 2
+  }
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4501},"s":100}

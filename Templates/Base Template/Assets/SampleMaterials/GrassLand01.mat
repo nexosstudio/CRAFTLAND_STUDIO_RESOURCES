@@ -1,0 +1,55 @@
+{
+  "_tag": {
+    "type": "Material"
+  },
+  "_entityId": "7KakD1t6",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "shader": {
+    "fileId": "s-64c4f071-1e93-4613-a3da-bef38339a2ec",
+    "filePath": "lib://ffshaders/BRMobile/UGC/DiffuseColor",
+    "_tag": {
+      "type": "GFileRefer"
+    },
+    "fileType": "shader"
+  },
+  "paramValue": {
+    "_Color": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 1
+    },
+    "_Brightness": 1,
+    "_MainTex": {
+      "Texture": {
+        "fileId": "e4c65232d3be1e92230bbcfdfd075038",
+        "filePath": "lib://fftextures/WorkshopItemTexture/SceneEdit_Cube_Texture_Grassland_01.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      },
+      "Tiling": {
+        "x": 1,
+        "y": 1
+      },
+      "Offset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "_CullMode": 2
+  }
+}
+//"{FE:{"v":"1.0.3072129","c":{"FF":4501},"s":100}

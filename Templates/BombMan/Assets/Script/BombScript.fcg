@@ -1,0 +1,19 @@
+import "StdLibrary.fcc" as std
+import "EditorGenLib.fcc" as gen
+import "./BombEffectScript.fcg" as BombEffectScript
+import Resources as Res from "EditorGenLib.fcc"
+import "Playable.fcc" as playable 
+
+graph BombScript {
+    async func ActiveBomb(explodeSize int) {
+        //The bomb explodes after 2 seconds
+        WaitForSeconds(2000)
+        //Create explosion effect
+        CreateFromPrefab(out var bombEft, Res.PrefabItems[EPrefab.BombEft])
+        bombEft<Transform>.Position = thisEntity<Transform>.Position
+        bombEft<BombEffectCmp>.Size = explodeSize
+        start bombEft<BombEffectScript>.Explode()
+        //destroy itself
+        DeleteEntity(thisEntity)
+    }
+}

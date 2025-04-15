@@ -1,0 +1,1 @@
+{"_tag":{"type":"ecaEventDesc"},"_entityId":"gIhivwKB","customEventDefines":{"signal_36238798":{"name":"sign","enitityType":"Player","props":[{"name":"参数1","value":"Int","key":1}],"propCount":1,"key":"signal_36238798"}},"customName":{"sign":"signal_36238798"},"customEventRelatMap":{"signal_36238798receive":"signal_36238798"},"children":[]}

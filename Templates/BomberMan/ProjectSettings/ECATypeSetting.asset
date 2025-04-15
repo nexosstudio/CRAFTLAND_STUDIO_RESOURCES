@@ -1,0 +1,27 @@
+{
+ "_tag": {
+  "type": "ecaDesc",
+  "resourceId": ""
+ },
+ "_entityId": "6K7ESwep",
+ "children": [],
+ "TypeDefines": {
+  "Player": {
+   "name": "Player",
+   "bases": [],
+   "ecaScripts": [],
+   "typeID": 14,
+   "PropDefines": [
+    {
+     "name": "Player_27725360",
+     "label": "PlaceBombUI",
+     "type": "Entity",
+     "param": {
+      "type": "SceneEditEntity",
+      "disabled": true
+     }
+    }
+   ]
+  }
+ }
+}

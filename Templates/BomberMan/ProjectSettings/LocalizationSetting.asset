@@ -1,0 +1,12 @@
+{
+ "_tag": {
+  "type": "ff.LocalizationSetting",
+  "resourceId": "LocalizationSetting"
+ },
+ "_entityId": "Eh3LuHgF",
+ "children": [],
+ "prefabVariant": null,
+ "activeValue": null,
+ "unlockedValue": null,
+ "_entityName": "FE_38_B_GAME_EDITOR_LOCALIZATIONSETTING"
+}

@@ -1,0 +1,828 @@
+{
+ "_tag": {
+  "type": "UIRootEntity",
+  "resourceId": ""
+ },
+ "_entityId": "4IIT01hx",
+ "children": [
+  {
+   "_tag": {
+    "type": "UIImageEntity",
+    "resourceId": ""
+   },
+   "_entityId": "8b389d7e-7be7-46e3-a081-585da036c50f",
+   "children": [
+    {
+     "_tag": {
+      "type": "UIImageEntity",
+      "resourceId": ""
+     },
+     "_entityId": "cb982706-cde4-4021-8235-2638088a3417",
+     "children": [
+      {
+       "_tag": {
+        "type": "UITextEntity",
+        "resourceId": ""
+       },
+       "_entityId": "d1e8e7e0-b8cc-48fe-902c-ec7e71e34360",
+       "children": [],
+       "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+       },
+       "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+       },
+       "propsData": {
+        "activeSelf": true,
+        "transform": {
+         "rotate": 0,
+         "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "pivot": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchoredPosition": {
+          "x": 0.5,
+          "y": 0
+         },
+         "sizeDelta": {
+          "x": 376,
+          "y": 52
+         }
+        },
+        "alpha": 100,
+        "text": {
+         "value": "Choose a fiream",
+         "key": "",
+         "font": "Default",
+         "fontSize": 50,
+         "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false
+         },
+         "color": "#ffffff",
+         "alignment": {
+          "h": "center",
+          "v": "middle"
+         },
+         "lineSpacing": 0,
+         "background": false,
+         "backgroundColor": "#e7b200"
+        }
+       },
+       "ecaScripts": [],
+       "ecaProps": {},
+       "_entityName": "文本",
+       "canAddChild": true
+      }
+     ],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": -0.5,
+        "y": 150
+       },
+       "sizeDelta": {
+        "x": 899,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "image": {
+       "source": "",
+       "color": "#000000",
+       "reverse": {
+        "x": false,
+        "y": false
+       }
+      }
+     },
+     "ecaScripts": [],
+     "ecaProps": {},
+     "_entityName": "CF",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIImageEntity",
+      "resourceId": ""
+     },
+     "_entityId": "d6d3779d-32b1-4143-9c8f-708b574b554d",
+     "children": [
+      {
+       "_tag": {
+        "type": "UITextEntity",
+        "resourceId": ""
+       },
+       "_entityId": "c9ae4aaa-8b92-4220-8adc-8fbe03cc014a",
+       "children": [],
+       "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+       },
+       "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+       },
+       "propsData": {
+        "activeSelf": true,
+        "transform": {
+         "rotate": 0,
+         "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "pivot": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchoredPosition": {
+          "x": 85,
+          "y": 113.41250610351562
+         },
+         "sizeDelta": {
+          "x": 200,
+          "y": 100
+         }
+        },
+        "alpha": 100,
+        "text": {
+         "value": "M82B",
+         "key": "",
+         "font": "Default",
+         "fontSize": 30,
+         "fontStyle": {
+          "bold": true,
+          "italic": false,
+          "underline": false
+         },
+         "color": "#000000",
+         "alignment": {
+          "h": "left",
+          "v": "top"
+         },
+         "lineSpacing": 0,
+         "background": false,
+         "backgroundColor": "#e7b200"
+        }
+       },
+       "ecaScripts": [],
+       "ecaProps": {},
+       "_entityName": "文本",
+       "canAddChild": true
+      }
+     ],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": -287,
+        "y": -75
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "image": {
+       "source": {
+        "fileId": "218f9c9016b42fcc1204b69fa5983335",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "color": "#000000",
+       "reverse": {
+        "x": false,
+        "y": false
+       }
+      }
+     },
+     "ecaScripts": [],
+     "ecaProps": {},
+     "_entityName": "M82B",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIImageEntity",
+      "resourceId": ""
+     },
+     "_entityId": "a4b77363-fca1-44b6-831a-0c2efeb6de77",
+     "children": [
+      {
+       "_tag": {
+        "type": "UITextEntity",
+        "resourceId": ""
+       },
+       "_entityId": "0c8a0ff3-9c83-4710-9d23-40e2e3df3ec2",
+       "children": [],
+       "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+       },
+       "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+       },
+       "propsData": {
+        "activeSelf": true,
+        "transform": {
+         "rotate": 0,
+         "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "pivot": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchoredPosition": {
+          "x": 88,
+          "y": 113.41250610351562
+         },
+         "sizeDelta": {
+          "x": 200,
+          "y": 100
+         }
+        },
+        "alpha": 100,
+        "text": {
+         "value": "Kar98k",
+         "key": "",
+         "font": "Default",
+         "fontSize": 30,
+         "fontStyle": {
+          "bold": true,
+          "italic": false,
+          "underline": false
+         },
+         "color": "#000000",
+         "alignment": {
+          "h": "left",
+          "v": "top"
+         },
+         "lineSpacing": 0,
+         "background": false,
+         "backgroundColor": "#e7b200"
+        }
+       },
+       "ecaScripts": [],
+       "ecaProps": {},
+       "_entityName": "文本",
+       "canAddChild": true
+      }
+     ],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": 0,
+        "y": -75
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "image": {
+       "source": {
+        "fileId": "218f9c9016b42fcc1204b69fa5983335",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "color": "#000000",
+       "reverse": {
+        "x": false,
+        "y": false
+       }
+      }
+     },
+     "ecaScripts": [],
+     "ecaProps": {},
+     "_entityName": "98K",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIImageEntity",
+      "resourceId": ""
+     },
+     "_entityId": "350090a8-d0a1-4dec-b438-940375439ce1",
+     "children": [
+      {
+       "_tag": {
+        "type": "UITextEntity",
+        "resourceId": ""
+       },
+       "_entityId": "f3de11f8-4e35-4b82-a4cd-6080f1fdb5dc",
+       "children": [],
+       "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+       },
+       "unlockedValue": {
+        "selfValue": true,
+        "valueTag": "unlockedValue"
+       },
+       "propsData": {
+        "activeSelf": true,
+        "transform": {
+         "rotate": 0,
+         "anchorMin": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchorMax": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "pivot": {
+          "x": 0.5,
+          "y": 0.5
+         },
+         "anchoredPosition": {
+          "x": 100,
+          "y": 113.41250610351562
+         },
+         "sizeDelta": {
+          "x": 200,
+          "y": 100
+         }
+        },
+        "alpha": 100,
+        "text": {
+         "value": "AWM",
+         "key": "",
+         "font": "Default",
+         "fontSize": 30,
+         "fontStyle": {
+          "bold": true,
+          "italic": false,
+          "underline": false
+         },
+         "color": "#000000",
+         "alignment": {
+          "h": "left",
+          "v": "top"
+         },
+         "lineSpacing": 0,
+         "background": false,
+         "backgroundColor": "#e7b200"
+        }
+       },
+       "ecaScripts": [],
+       "ecaProps": {},
+       "_entityName": "文本",
+       "canAddChild": true
+      }
+     ],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": 287.625,
+        "y": -75
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "image": {
+       "source": {
+        "fileId": "218f9c9016b42fcc1204b69fa5983335",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "color": "#000000",
+       "reverse": {
+        "x": false,
+        "y": false
+       }
+      }
+     },
+     "ecaScripts": [],
+     "ecaProps": {},
+     "_entityName": "AWM",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIButtonEntity",
+      "resourceId": ""
+     },
+     "_entityId": "f7858703-723a-4c07-9f9e-3dff568646f9",
+     "children": [],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": -287,
+        "y": -86.58749389648438
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "button": {
+       "spriteName": {
+        "fileId": "83e3a5cf50882dc7fa7e87637ed53c94",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "normal": "#5B5B5B",
+       "highlight": "#e2a222",
+       "pressed": "#774315",
+       "disabled": "#494949",
+       "onClicks": []
+      }
+     },
+     "ecaScripts": [
+      {
+       "fileId": "80519a6d-88bb-45e1-8aa0-fb44357f75c4",
+       "filePath": "Assets\\UI\\b28.eca",
+       "_tag": {
+        "type": "GFileRefer"
+       },
+       "fileType": "eca"
+      }
+     ],
+     "ecaProps": {},
+     "_entityName": "M82B",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIButtonEntity",
+      "resourceId": ""
+     },
+     "_entityId": "82a9faad-1ecc-44f5-9c9d-acff7a2fd15d",
+     "children": [],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": 0,
+        "y": -86.58749389648438
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "button": {
+       "spriteName": {
+        "fileId": "83e3a5cf50882dc7fa7e87637ed53c94",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "normal": "#5B5B5B",
+       "highlight": "#e2a222",
+       "pressed": "#774315",
+       "disabled": "#494949",
+       "onClicks": []
+      }
+     },
+     "ecaScripts": [
+      {
+       "fileId": "c1d722c3-aa38-4a4d-b971-fa19b020858d",
+       "filePath": "Assets\\UI\\98k.eca",
+       "_tag": {
+        "type": "GFileRefer"
+       },
+       "fileType": "eca"
+      }
+     ],
+     "ecaProps": {},
+     "_entityName": "98K",
+     "canAddChild": true
+    },
+    {
+     "_tag": {
+      "type": "UIButtonEntity",
+      "resourceId": ""
+     },
+     "_entityId": "58bf035b-5882-4a07-a02f-7f5e74805dea",
+     "children": [],
+     "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+     },
+     "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+     },
+     "propsData": {
+      "activeSelf": true,
+      "transform": {
+       "rotate": 0,
+       "anchorMin": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchorMax": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "pivot": {
+        "x": 0.5,
+        "y": 0.5
+       },
+       "anchoredPosition": {
+        "x": 287.625,
+        "y": -86.58749389648438
+       },
+       "sizeDelta": {
+        "x": 150,
+        "y": 150
+       }
+      },
+      "alpha": 100,
+      "button": {
+       "spriteName": {
+        "fileId": "83e3a5cf50882dc7fa7e87637ed53c94",
+        "filePath": "lib://fftextures/WorkshopIconLibrary/T_34_M_WS_ICON_GUN.png",
+        "_tag": {
+         "type": "GFileRefer"
+        },
+        "fileType": "texture"
+       },
+       "normal": "#5B5B5B",
+       "highlight": "#e2a222",
+       "pressed": "#774315",
+       "disabled": "#494949",
+       "onClicks": []
+      }
+     },
+     "ecaScripts": [
+      {
+       "fileId": "79c6ae7e-8707-42e7-91c0-1e65eb210124",
+       "filePath": "Assets\\UI\\awm.eca",
+       "_tag": {
+        "type": "GFileRefer"
+       },
+       "fileType": "eca"
+      }
+     ],
+     "ecaProps": {},
+     "_entityName": "AWM",
+     "canAddChild": true
+    }
+   ],
+   "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+   },
+   "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+   },
+   "propsData": {
+    "activeSelf": true,
+    "transform": {
+     "rotate": 0,
+     "anchorMin": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "anchorMax": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "pivot": {
+      "x": 0.5,
+      "y": 0.5
+     },
+     "anchoredPosition": {
+      "x": 0,
+      "y": 0
+     },
+     "sizeDelta": {
+      "x": 900,
+      "y": 450
+     }
+    },
+    "alpha": 100,
+    "image": {
+     "source": "",
+     "color": "#B4B4B4",
+     "reverse": {
+      "x": false,
+      "y": false
+     }
+    }
+   },
+   "ecaScripts": [],
+   "ecaProps": {},
+   "_entityName": "BGP",
+   "canAddChild": true
+  }
+ ],
+ "activeValue": {
+  "selfValue": true,
+  "valueTag": "activeValue"
+ },
+ "unlockedValue": {
+  "selfValue": true,
+  "valueTag": "unlockedValue"
+ },
+ "propsData": {
+  "activeSelf": true,
+  "transform": {
+   "rotate": 0,
+   "anchorMin": {
+    "x": 0,
+    "y": 0
+   },
+   "anchorMax": {
+    "x": 0,
+    "y": 0
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.5
+   },
+   "anchoredPosition": {
+    "x": 657.3333129882812,
+    "y": 369.75
+   },
+   "sizeDelta": {
+    "x": 1314.6666259765625,
+    "y": 739.5
+   }
+  },
+  "alpha": 100
+ },
+ "ecaScripts": [],
+ "ecaProps": {},
+ "_entityName": "firearms select",
+ "canAddChild": true,
+ "discriminator": "ISceneLike",
+ "version": 2
+}

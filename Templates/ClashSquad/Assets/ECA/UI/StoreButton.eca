@@ -1,0 +1,154 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "e",
+        "id": "B*%2Mvje_*Y9bcl^U*?e",
+        "x": 493,
+        "y": 171,
+        "extraState": {
+          "X": 424,
+          "L": [
+            1
+          ],
+          "T": "OnPress",
+          "OT": "HudButtonWidget"
+        },
+        "fields": {
+          "P1": {
+            "name": "Triggering player",
+            "type": "Player"
+          }
+        },
+        "next": {
+          "block": {
+            "type": "a",
+            "id": "w%kV2=4C`~~=.V}FSP~[",
+            "extraState": {
+              "X": 203,
+              "L": [
+                1,
+                2,
+                3
+              ],
+              "T": "TryGetWalletIDByEntity",
+              "OT": null
+            },
+            "fields": {
+              "P2": {
+                "name": "Exist or not",
+                "type": "Bool"
+              },
+              "P3": {
+                "name": "Wallet entity",
+                "type": "Wallet"
+              }
+            },
+            "inputs": {
+              "P1": {
+                "shadow": {
+                  "type": "tys",
+                  "id": "mT_f:#]x{^:^BIqPQvtN",
+                  "extraState": "entity"
+                },
+                "block": {
+                  "type": "lcg",
+                  "id": "1p%Hi%$N(5K/Rv;D;)a/",
+                  "extraState": "B*%2Mvje_*Y9bcl^U*?eP1",
+                  "fields": {
+                    "VR": "Triggering player"
+                  }
+                }
+              }
+            },
+            "next": {
+              "block": {
+                "type": "exa",
+                "id": "?]-+FtPX3/u4V=L3swfH",
+                "extraState": {
+                  "graphId": "qox5byrqiwl-lypkd6u3-4ybsqw6kvxb",
+                  "id": "jvbC,ak33L+YCCDg9?0K",
+                  "name": "CreateStoreInterface",
+                  "params": [
+                    {
+                      "id": "_arg4753",
+                      "name": "player",
+                      "type": "Player",
+                      "isOut": false
+                    },
+                    {
+                      "id": "_arg5161",
+                      "name": "wallet",
+                      "type": "Wallet",
+                      "isOut": false
+                    }
+                  ],
+                  "tooltip": "Assets\\ECA\\UI\\UIManager_Store.eca"
+                },
+                "fields": {
+                  "T": "W"
+                },
+                "inputs": {
+                  "H": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "]ShL9{y;e+q5z[~8e2c.",
+                      "extraState": "Component"
+                    },
+                    "block": {
+                      "type": "v",
+                      "id": "SHhd]ag5AOU;S^ui}6c.",
+                      "extraState": {
+                        "X": 95,
+                        "L": [],
+                        "T": "GetGlobalEntity",
+                        "OT": null
+                      }
+                    }
+                  },
+                  "_arg4753": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": "SV=Zu{3B8UpdhYrEpN{9",
+                      "extraState": "Player"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "N$PT!Bb-E8$@^Q#/SI9n",
+                      "extraState": "B*%2Mvje_*Y9bcl^U*?eP1",
+                      "fields": {
+                        "VR": "Triggering player"
+                      }
+                    }
+                  },
+                  "_arg5161": {
+                    "shadow": {
+                      "type": "tys",
+                      "id": ",Hkbi8Q+^E-21@X(HQCc",
+                      "extraState": "Wallet"
+                    },
+                    "block": {
+                      "type": "lcg",
+                      "id": "03S{|~uvgfN7h+TOqN!?",
+                      "extraState": "w%kV2=4C`~~=.V}FSP~[P3",
+                      "fields": {
+                        "VR": "Wallet entity"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "graphData": {
+    "ownerType": "Entity",
+    "componentTypes": "HudButtonWidget",
+    "isStatic": false
+  }
+}
+//"{FE:{"v":"1.9.3093970","c":{"FF":4501},"s":100}

@@ -1,0 +1,33 @@
+{
+  "_tag": {
+    "type": "ff.Camera",
+    "resourceId": "CameraSetting"
+  },
+  "_entityId": "vj4FWoXm",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 8,
+  "CameraType": "Classic",
+  "CameraFov": 60,
+  "CameraPitch": 0,
+  "CameraYaw": 0,
+  "CameraOffset": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "CameraBlockMode": 1,
+  "CameraProjectionMode": 0,
+  "TwoDimensionCamEnableZAxis": true,
+  "CameraViewingAngleRestrictionType": 0,
+  "FPPResource": false,
+  "ecaProps": {},
+  "ecaScript": null,
+  "ecaScripts": [],
+  "_entityName": "FE_0_HW_CAMERA_TITLE"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

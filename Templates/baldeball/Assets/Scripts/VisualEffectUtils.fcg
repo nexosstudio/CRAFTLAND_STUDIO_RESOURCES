@@ -1,0 +1,35 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import "Playable.fcc" as playable 
+
+static graph VisualEffectUtils {
+    
+    func CreateVisualEffect(effectType EffectType, color Color, scale Vector3, position Vector3) EffectEntity{
+        LogInfo("[CreateObjectUtil] CreateIconEntity effectType = " + effectType)  
+        CreateEffect(out var createdEntity, nil, effectType);                 
+        createdEntity<EffectEntity>.Color = color;        
+        createdEntity<Transform>.Scale = scale;
+        createdEntity<Transform>.Position = position;  
+               
+        return createdEntity as EffectEntity;
+    }
+
+    func CreateVisualEffectSelf(effectType EffectType, color Color, scale Vector3, position Vector3, player entity<Player>) EffectEntity{
+        LogInfo("[CreateObjectUtil] CreateIconEntity effectType = " + effectType)  
+        CreateEffect(out var createdEntity, player, effectType);                 
+        createdEntity<EffectEntity>.Color = color;        
+        createdEntity<Transform>.Scale = scale;
+        createdEntity<Transform>.Position = position;  
+               
+        return createdEntity as EffectEntity;
+    }
+
+    func CraeateEffectEntityFollowPlayer(effectEntity entity<EffectEntity>, player entity<Entity>,offset Vector3) PositionFollow {
+        CreateFollow(effectEntity,player,offset,CoordinateType:LocalPosition,out var motion);
+            Play(motion,true);
+            return motion;
+
+    }
+
+
+}

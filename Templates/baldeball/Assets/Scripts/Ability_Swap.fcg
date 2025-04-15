@@ -1,0 +1,83 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import Ball_Manager from "EditorGenLib.fcc"
+import Player_Ability from "EditorGenLib.fcc"
+import Player_Config from "EditorGenLib.fcc"
+import Global_BallManager from "EditorGenLib.fcc"
+import Resources from "EditorGenLib.fcc"
+import Player_SpecialEffect from "EditorGenLib.fcc"
+import "Physics.fcc" as physics 
+import "LevelObject.fcc" as levelObject 
+import "Combat.fcc" as combat 
+import "Playable.fcc" as playable 
+import "./VisualEffectUtils.fcg" as visualEffectUtils
+import "./TextObjectUtils.fcg" as textObjectUtils
+import "./MotionUtils.fcg" as motionUtils
+import "Player.fcc" as player
+import "Workflow.fcc" as workflow 
+import "Hostility.fcc" as hostility 
+import "Math.fcc" as math 
+
+graph Swap_Ability {
+
+    textObject TextEntity;
+    auraEffect EffectEntity;
+    auraFollowMotion PositionFollow;
+    event OnFire() {
+        SphereOverlap(thisEntity<Player>.hitRange,thisEntity<Player>.Position+Vector3{0, 0.5, 0},List<int>{1},false,out var listOfEntity);
+
+        for key, ball in listOfEntity {
+            DispatchEvent(OnPlayerHitTheBall,ball<Entity>,List<object>{thisEntity<Player>,nil});
+        }
+    }
+    event OnPlayerUseAbility() {
+        var target = globalEntity<Global_BallManager>.ballRef<Ball_Manager>.currentTarget as Player;
+        if(target<Player>.UserUID == thisEntity<Player>.UserUID){
+           target = globalEntity<Global_BallManager>.ballRef<Ball_Manager>.GetRandomPlayerTarget(thisEntity<Player>) as Player;
+        }
+        if(textObject==nil){
+            textObject = textObjectUtils:CreateText(Resources:skillNameLocalization["Swap"],#000000FF,thisEntity<Player>.Position);
+        }
+        start motionUtils:FloatingTextMotion(textObject,500,thisEntity<Player>.Position);  
+        start TurnOnEffect();
+        TeleportToTarget(target);
+        thisEntity<Player_Ability>.StartCD();
+    }
+    event OnBeKilled(attacker entity<Entity>, damageType DamageType, beDamagedPart HitBodyPart) {
+        DeleteAllEffect();  
+    }
+
+    event OnPhaseStart(phase entity<Phase>) {
+        if (phase<Phase>.PhaseIndex==Resources:phaseIndexEnum["StageEnds"]){
+            DeleteAllEffect();
+        }
+    }
+
+    func TeleportToTarget(target Player){
+        PlaySound(thisEntity<Player>,SoundEffects:ElectricShock);
+        target<Player_SpecialEffect>.GetSwapEffect();
+
+        var targetPos = target<Player>.Position as Vector3;
+        var targetDir = target<Player>.Forward as Vector3;
+        var ballPos = globalEntity<Global_BallManager>.ballRef<Transform>.Position as Vector3;
+
+        Teleport(target<Player>,(thisEntity<Player>.Position),Normalize(ballPos - thisEntity<Player>.Position));
+        Teleport(thisEntity<Player>,(targetPos),Normalize(ballPos-targetPos));
+
+    }
+    async func TurnOnEffect(){
+            auraEffect = visualEffectUtils:CreateVisualEffectSelf(EffectType:CircleofHeat,#FFFB00FF,Vector3{2, 2, 2},Vector3{0, -1, 0},thisEntity<Player>) as EffectEntity;
+            auraFollowMotion = visualEffectUtils:CraeateEffectEntityFollowPlayer(auraEffect<EffectEntity>,thisEntity<Entity>,Vector3{0, 0, 0});
+            WaitForSeconds(500);
+            DeleteEntity(auraEffect<Entity>);
+            DeleteEntity(auraFollowMotion<Entity>);
+            DeleteEntity(textObject<Entity>);
+        }
+   async func DeleteAllEffect(){
+            DeleteEntity(auraEffect<Entity>);
+            DeleteEntity(auraFollowMotion<Entity>);
+            DeleteEntity(textObject<Entity>);
+            WaitForNextFrame();
+            thisEntity<Player_Ability>.DeleteCurrentAbility();
+    }
+}

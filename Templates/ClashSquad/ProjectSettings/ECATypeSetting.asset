@@ -1,0 +1,561 @@
+{
+  "_tag": {
+    "type": "ecaDesc",
+    "resourceId": ""
+  },
+  "_entityId": "LxWt2B3k",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "TypeDefines": {
+    "Global": {
+      "label": "游戏实体",
+      "name": "Global",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [],
+      "typeID": 11,
+      "PropDefines": [
+        {
+          "propID": 100000,
+          "name": "PROP_32455303",
+          "label": "Money_Default",
+          "type": "Int",
+          "value": 1000,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100006,
+          "name": "PROP_31817186",
+          "label": "Money_RoundStart",
+          "type": "Int",
+          "value": 600,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100001,
+          "name": "PROP_39969908",
+          "label": "Money_Kill",
+          "type": "Int",
+          "value": 300,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100002,
+          "name": "PROP_69428200",
+          "label": "Money_RoundWin",
+          "type": "Int",
+          "value": 1300,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100003,
+          "name": "PROP_80528881",
+          "label": "Money_1RoundLose",
+          "type": "Int",
+          "value": 1000,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100004,
+          "name": "PROP_64540188",
+          "label": "Money_2RoundLose",
+          "type": "Int",
+          "value": 2000,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100005,
+          "name": "PROP_55496593",
+          "label": "Money_3RoundLose",
+          "type": "Int",
+          "value": 3000,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100039,
+          "name": "PROP_89679389",
+          "label": "Game_End",
+          "type": "Bool",
+          "value": false,
+          "disabledType": true,
+          "param": {
+            "size": "small"
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "Player": {
+      "label": "玩家实体",
+      "name": "Player",
+      "bases": [
+        "FightingEntity",
+        "ScoreableEntity",
+        "RankableEntity",
+        "Visibility",
+        "BuffableEntity",
+        "FormulableEntity"
+      ],
+      "ecaScripts": [],
+      "typeID": 14,
+      "PropDefines": [
+        {
+          "propID": 100008,
+          "name": "PROP_13105589",
+          "label": "UI_RoundTransform",
+          "type": "any",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100009,
+          "name": "PROP_81896619",
+          "label": "UI_TeamMatchInfomation",
+          "type": "TwoTeamMatchInfoHud",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100010,
+          "name": "PROP_99681053",
+          "label": "UI_MatchSubtitle",
+          "type": "MatchInfoSubTitleHud",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100029,
+          "name": "PROP_11808529",
+          "label": "UI_StageCountDown",
+          "type": "PhaseCountDownHud",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100015,
+          "name": "PROP_19203006",
+          "label": "UI_Wallet",
+          "type": "WalletHud",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100028,
+          "name": "PROP_22378744",
+          "label": "UI_WalletBackground",
+          "type": "CustomHud",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100027,
+          "name": "PROP_87935135",
+          "label": "Entity_Store",
+          "type": "Shop",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100011,
+          "name": "PROP_53218353",
+          "label": "Shelf_Weapon",
+          "type": "ShopShelf",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100036,
+          "name": "PROP_91796041",
+          "label": "Shelf_Armor",
+          "type": "ShopShelf",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100037,
+          "name": "PROP_66602693",
+          "label": "Shelf_Grenade",
+          "type": "ShopShelf",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100012,
+          "name": "PROP_35620267",
+          "label": "Total_Damage",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100013,
+          "name": "PROP_89330518",
+          "label": "Total_Kill",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100019,
+          "name": "PROP_75797534",
+          "label": "Total_Dead",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100014,
+          "name": "PROP_46179049",
+          "label": "Total_Assist",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100007,
+          "name": "PROP_97654495",
+          "label": "Round_Damage",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100016,
+          "name": "PROP_13911377",
+          "label": "Round_Kill",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100018,
+          "name": "PROP_49580565",
+          "label": "Round_Dead",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100017,
+          "name": "PROP_44206692",
+          "label": "Round_Assist",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100032,
+          "name": "PROP_14843962",
+          "label": "Player_State",
+          "type": "CustomEnum73694171",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100030,
+          "name": "PROP_95240148",
+          "label": "Spawn_Position",
+          "type": "Vector3",
+          "value": {
+            "type": "Vector3",
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "disabledType": true,
+          "param": {
+            "min": -16777216,
+            "max": 16777216
+          }
+        },
+        {
+          "propID": 100033,
+          "name": "PROP_81015706",
+          "label": "Spawn_Direction",
+          "type": "Vector3",
+          "value": {
+            "type": "Vector3",
+            "value": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          },
+          "disabledType": true,
+          "param": {
+            "min": -16777216,
+            "max": 16777216
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "Team": {
+      "label": "Team entity",
+      "name": "Team",
+      "bases": [
+        "Entity",
+        "ScoreableEntity",
+        "RankableEntity"
+      ],
+      "ecaScripts": [],
+      "typeID": 15,
+      "PropDefines": [
+        {
+          "propID": 100020,
+          "name": "PROP_77973698",
+          "label": "Number_Alive",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100031,
+          "name": "PROP_84805365",
+          "label": "Number_Weak",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100021,
+          "name": "PROP_82047919",
+          "label": "Number_Dead",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100022,
+          "name": "PROP_25390066",
+          "label": "Number_Win",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100023,
+          "name": "PROP_46385329",
+          "label": "Number_LoseStreak",
+          "type": "Int",
+          "value": 0,
+          "disabledType": true,
+          "param": {
+            "precision": 0,
+            "min": -2147483648,
+            "max": 2147483647
+          }
+        },
+        {
+          "propID": 100026,
+          "name": "PROP_92277767",
+          "label": "Match_Result",
+          "type": "MatchResultType",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100034,
+          "name": "PROP_51267504",
+          "label": "Round_Result",
+          "type": "MatchResultType",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        },
+        {
+          "propID": 100038,
+          "name": "PROP_12261497",
+          "label": "Match_MVP",
+          "type": "Player",
+          "value": null,
+          "disabledType": true,
+          "param": {
+            "compType": "InputEditor",
+            "disabled": true
+          }
+        }
+      ],
+      "IsPartial": true
+    },
+    "Shop": {
+      "label": "商店实体",
+      "name": "Shop",
+      "bases": [
+        "Entity"
+      ],
+      "ecaScripts": [
+        {
+          "fileId": "14w6vbwci8o-lyy6j1om-u2p1n1wjglj",
+          "_tag": {
+            "type": "GFileRefer"
+          },
+          "fileType": "eca"
+        }
+      ],
+      "typeID": 73,
+      "PropDefines": [],
+      "IsPartial": true
+    }
+  }
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4501},"s":100}

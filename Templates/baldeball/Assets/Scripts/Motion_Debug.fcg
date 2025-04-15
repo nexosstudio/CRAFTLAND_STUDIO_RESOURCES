@@ -1,0 +1,15 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import "Playable.fcc" as playable 
+
+graph MotionDebug {
+    event OnStart(motion entity<Playable>) {
+        LogInfo("[Motion Entity] Motion play");
+    }
+    event OnDestroy() {
+        LogInfo("[Motion Entity] Motion Destroy");
+    }
+    event OnPause(motion entity<Playable>) {
+        LogInfo("[Motion Entity] Motion Pause");
+    }
+}

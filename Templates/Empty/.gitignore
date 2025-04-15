@@ -1,0 +1,5 @@
+.vscode/
+Cache/
+Libraries/
+Temp/
+*.lock

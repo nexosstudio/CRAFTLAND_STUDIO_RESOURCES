@@ -1,0 +1,138 @@
+{
+  "_tag": {
+    "type": "ff.workflow",
+    "resourceId": "Workflow"
+  },
+  "_entityId": "3c4CVWRU",
+  "children": [
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GameStart"
+      },
+      "_entityId": "ZZm4Ko3O",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 5,
+      "ecaScripts": [],
+      "ecaProps": {},
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_START",
+      "phaseIndex": 169
+    },
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GamePrepare"
+      },
+      "_entityId": "3pVfA7Ra",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 5,
+      "ecaScripts": [],
+      "ecaProps": {},
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_PREPARE",
+      "phaseIndex": 596
+    },
+    {
+      "_tag": {
+        "type": "ff.RoundEntity1",
+        "resourceId": "Round"
+      },
+      "_entityId": "hHHN98oD",
+      "children": [
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "RoundPrepare"
+          },
+          "_entityId": "abxyGeX2",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 5,
+          "ecaScripts": [],
+          "ecaProps": {},
+          "modId": 18,
+          "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_PHASE",
+          "phaseIndex": 2976
+        },
+        {
+          "_tag": {
+            "type": "ff.PhaseEntity1",
+            "resourceId": "Phase"
+          },
+          "_entityId": "DXtkAEaA",
+          "children": [],
+          "prefabVariant": null,
+          "activeValue": null,
+          "unlockedValue": null,
+          "editorLockValue": false,
+          "editorVisibleValue": true,
+          "gameDuration": 180,
+          "ecaScripts": [],
+          "ecaProps": {},
+          "modId": 18,
+          "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_PHASE",
+          "phaseIndex": 4873
+        }
+      ],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "roundCount": 3,
+      "modId": 18,
+      "ecaScripts": [],
+      "ecaProps": {},
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_ROUND",
+      "phaseIndex": 998
+    },
+    {
+      "_tag": {
+        "type": "ff.PhaseEntity1",
+        "resourceId": "GameEnd"
+      },
+      "_entityId": "hoNnzKj1",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": null,
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "gameDuration": 5,
+      "ecaScripts": [],
+      "ecaProps": {},
+      "modId": 18,
+      "_entityName": "FE_0_HW_GAME_EDITOR_FLOW_END",
+      "phaseIndex": 5770
+    }
+  ],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "EnableHackCheck": false,
+  "EnableInventoryDrop": false,
+  "modId": 18,
+  "modOpen": true,
+  "curActiveEntity": null,
+  "roundCount": 4,
+  "discriminator": "ISceneLike",
+  "_entityName": "FE_0_HW_GAME_EDITOR_FLOWSETTING"
+}
+//"{FE:{"v":"0.1.2974255","c":{"FF":4404},"s":100}

@@ -1,0 +1,17 @@
+{
+ "_tag": {
+  "type": "ff.TeamSetting",
+  "resourceId": "TeamSetting"
+ },
+ "_entityId": "XNhVXAmS",
+ "prefabVariant": null,
+ "children": [],
+ "properties": {},
+ "activeValue": null,
+ "unlockedValue": null,
+ "TeamCount": 2,
+ "MemberCount": 2,
+ "ecaScript": null,
+ "ecaScripts": [],
+ "_entityName": "FE_0_HW_GAME_EDITOR_TEAMSETTING"
+}

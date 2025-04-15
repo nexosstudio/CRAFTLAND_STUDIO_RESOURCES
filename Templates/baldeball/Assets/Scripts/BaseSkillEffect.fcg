@@ -1,0 +1,32 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import "Playable.fcc" as playable 
+import "./VisualEffectUtils.fcg" as visualEffectUtils
+
+graph BallScaleAbility {
+    visualEffectAura EffectEntity
+    motionFollow PositionFollow
+
+    event OnPlayerUseAbility() {
+        TurnOnEffect()
+        
+    }
+    func TurnOnEffect(){
+        if(visualEffectAura==nil){
+           visualEffectAura = visualEffectUtils:CreateVisualEffect(EffectType:Sphere,ColorRGB(255, 255, 0),Vector3{1, 1, 1},Vector3{0, 0, 0}) as EffectEntity;
+           motionFollow = visualEffectUtils:CraeateEffectEntityFollowPlayer(visualEffectAura<EffectEntity>,thisEntity<Entity>,Vector3{0, 0, 0});
+        }else{
+            visualEffectAura<Entity>.Enable = true;
+        }
+
+    }
+    func TurnOffEffect(){
+        visualEffectAura<Entity>.Enable = false;
+    }
+
+    func DeleteAllEffect(){
+        DeleteEntity(visualEffectAura<Entity>);
+        DeleteEntity(motionFollow<Entity>);
+    }
+    
+}

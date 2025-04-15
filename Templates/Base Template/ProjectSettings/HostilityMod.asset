@@ -1,0 +1,51 @@
+{
+  "_tag": {
+    "type": "ff.hostility",
+    "resourceId": "Hostility"
+  },
+  "_entityId": "DVvPDx07",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 29,
+  "MaxTeamNumber": 12,
+  "MaxFactionNumber": 12,
+  "MaxRoomPlayerNumber": 60,
+  "modOpen": true,
+  "activeHostilityType": "team",
+  "teams": [],
+  "factions": [],
+  "team": {
+    "_tag": {
+      "type": "ff.TeamSetting",
+      "resourceId": "TeamSetting"
+    },
+    "_entityId": "XNhVXAmS",
+    "prefabVariant": null,
+    "children": [],
+    "properties": {},
+    "activeValue": {
+      "selfValue": true,
+      "valueTag": "activeValue"
+    },
+    "unlockedValue": {
+      "selfValue": true,
+      "valueTag": "unlockedValue"
+    },
+    "TeamCount": 2,
+    "MemberCount": 2,
+    "ecaScript": null,
+    "ecaScripts": [],
+    "_entityName": "FE_0_HW_GAME_EDITOR_TEAMSETTING",
+    "MaxTeamPlayerNumber": 12,
+    "MaxRoomPlayerNumber": 30,
+    "MaxTeamNumber": 30,
+    "MinNumOfMatchStart": 1,
+    "ecaProps": {}
+  },
+  "_entityName": "Hostility模组"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

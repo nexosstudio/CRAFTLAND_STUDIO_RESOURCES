@@ -1,0 +1,98 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import Ball_Manager from "EditorGenLib.fcc"
+import Player_Ability from "EditorGenLib.fcc"
+import Player_Config from "EditorGenLib.fcc"
+import Ball_Manager from "EditorGenLib.fcc"
+import "Physics.fcc" as physics 
+import "LevelObject.fcc" as levelObject 
+import "Combat.fcc" as combat 
+import "Playable.fcc" as playable 
+import "./VisualEffectUtils.fcg" as visualEffectUtils
+import "Workflow.fcc" as workflow 
+import Resources from "EditorGenLib.fcc"
+import "./MotionUtils.fcg" as motionUtils 
+import "./TextObjectUtils.fcg" as textObjectUtils
+
+
+graph SmallBall_Ability {
+    isUsingSkill bool;
+    auraEffect EffectEntity;
+    auraFollowMotion PositionFollow;
+    textObject TextEntity;
+    event OnFire() {
+        SphereOverlap(thisEntity<Player>.hitRange,thisEntity<Player>.Position+Vector3{0, 0.5, 0},List<int>{1},false,out var listOfEntity);
+        if (isUsingSkill){
+            ApplySkillToBall(listOfEntity) 
+        }else{
+            for key, ball in listOfEntity {
+                DispatchEvent(OnPlayerHitTheBall,ball<Entity>,List<object>{thisEntity<Player>,nil});
+            }
+        } 
+          
+    }
+
+    event OnRoundEnd(roundIndex int) {
+        DeleteAllEffect();
+    }
+
+    event OnPlayerUseAbility() {
+        isUsingSkill = true;
+        TurnOnEffect();
+    }
+
+    event OnBeKilled(attacker entity<Entity>, damageType DamageType, beDamagedPart HitBodyPart) {
+        DeleteAllEffect();
+    }
+    event OnPhaseStart(phase entity<Phase>) {
+        if (phase<Phase>.PhaseIndex==Resources:phaseIndexEnum["StageEnds"]){
+            LogInfo("Delete this ability");
+
+            DeleteAllEffect();
+        }
+    }
+
+    func ApplySkillToBall(balls List<object>){
+        PlaySound(thisEntity<Player>,SoundEffects:TappingButton);
+        for key, ball in balls {
+            if(ball<Ball_Manager>.GetCurrentTarget()==thisEntity<Player>){
+
+                if(textObject==nil){
+                    textObject = textObjectUtils:CreateText(Resources:skillNameLocalization["SmallBall"],#0FFF73FF,thisEntity<Player>.Position);
+                }
+                start motionUtils:FloatingTextMotion(textObject,1000,thisEntity<Player>.Position);   
+                DispatchEvent(OnPlayerHitTheBall,ball<Entity>,List<object>{thisEntity<Player>,Ability_Enum:SmallBall});
+                isUsingSkill = false;
+                TurnOffEffect();
+                thisEntity<Player_Ability>.StartCD();
+                return;
+            }
+            
+        }
+    }
+
+    func TurnOnEffect(){
+        if(auraEffect==nil){
+            auraEffect = visualEffectUtils:CreateVisualEffect(EffectType:Bubble,#D0FF00FF,Vector3{2, 2, 2},Vector3{0, 0, 0}) as EffectEntity;
+           auraFollowMotion = visualEffectUtils:CraeateEffectEntityFollowPlayer(auraEffect<EffectEntity>,thisEntity<Entity>,Vector3{0, 0, 0});
+           
+        }else{
+            SetActive(auraEffect<Entity>,true);
+        }
+
+    }
+    func TurnOffEffect(){
+        
+        SetActive(auraEffect<Entity>,false);
+    }
+
+    async func DeleteAllEffect(){
+        DeleteEntity(auraEffect<Entity>);
+        DeleteEntity(auraFollowMotion<Entity>);
+        DeleteEntity(textObject<Entity>);
+        WaitForNextFrame();
+
+        thisEntity<Player_Ability>.DeleteCurrentAbility();
+
+    }
+}

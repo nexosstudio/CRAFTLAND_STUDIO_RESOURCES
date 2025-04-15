@@ -1,0 +1,89 @@
+{
+  "_tag": {
+    "type": "EntityLayerSetting"
+  },
+  "_entityId": "rQKSm1Ma",
+  "Layer": {
+    "0": {
+      "id": 0,
+      "value": "T_40_XXJ_WS_DEFULT",
+      "isDefault": true
+    },
+    "1": {
+      "id": 1,
+      "value": "",
+      "isDefault": false
+    },
+    "2": {
+      "id": 2,
+      "value": "",
+      "isDefault": false
+    },
+    "3": {
+      "id": 3,
+      "value": "",
+      "isDefault": false
+    },
+    "4": {
+      "id": 4,
+      "value": "",
+      "isDefault": false
+    },
+    "5": {
+      "id": 5,
+      "value": "",
+      "isDefault": false
+    },
+    "6": {
+      "id": 6,
+      "value": "",
+      "isDefault": false
+    },
+    "7": {
+      "id": 7,
+      "value": "",
+      "isDefault": false
+    },
+    "8": {
+      "id": 8,
+      "value": "",
+      "isDefault": false
+    },
+    "9": {
+      "id": 9,
+      "value": "",
+      "isDefault": false
+    },
+    "10": {
+      "id": 10,
+      "value": "",
+      "isDefault": false
+    },
+    "11": {
+      "id": 11,
+      "value": "",
+      "isDefault": false
+    },
+    "12": {
+      "id": 12,
+      "value": "",
+      "isDefault": false
+    },
+    "13": {
+      "id": 13,
+      "value": "",
+      "isDefault": false
+    },
+    "14": {
+      "id": 14,
+      "value": "",
+      "isDefault": false
+    },
+    "15": {
+      "id": 15,
+      "value": "",
+      "isDefault": false
+    }
+  }
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

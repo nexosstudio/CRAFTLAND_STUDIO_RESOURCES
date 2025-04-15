@@ -1,0 +1,37 @@
+import "StdLibrary.fcc" as std
+import "EditorGenLib.fcc" as gen
+import "Hud.fcc" as hud
+import "Combat.fcc" as combat
+import Resources as Res from "EditorGenLib.fcc"
+import "./ConstValues.fcg" as const
+
+graph PlayerScript {
+    MainHUD entity<CustomHud>
+
+    event OnAwake() {
+        CreateCustomHud(out var hud, thisEntity<Player>, Res.CustomHUDs[EHUD.BombHUD] as CustomHudID)
+        MainHUD = hud
+        MainHUD<CustomHud>.Visibility = false
+    }
+
+    event OnMyGameStart(level int){
+        MainHUD<CustomHud>.Visibility = true
+    }
+
+    event OnMyGameEnd() {
+        //Destroy the HUD after the game is over to avoid HUD display layer errors
+        if MainHUD != nil {
+            DeleteEntity(MainHUD)
+        }
+    }
+
+    event OnBeKilled(attackerEntity entity<Entity>, attackedType DamageType, hitBodyPart HitBodyPart) {
+        if !HasTag(thisEntity, const.TagKeyPlayer) {
+            return
+        }
+        //If a player with a key is killed, the key will drop.
+        DeleteTag(thisEntity, const.TagKeyPlayer)
+        CreateFromPrefab(out var keyTrigger, Res.PrefabItems[EPrefab.Trigger_Key])
+        keyTrigger<Transform>.Position = thisEntity<Player>.Position
+    }
+}

@@ -1,0 +1,45 @@
+import "StdLibrary.fcc" as std
+import "Hud.fcc" as hud
+import "EditorGenLib.fcc" as gen
+import "./BombScript.fcg" as BombScript
+import Resources as Res from "EditorGenLib.fcc"
+import "Math.fcc" as Math
+import "List.fcc" as list 
+
+graph BtnBomb {
+    BombEntities List<entity<Entity>>
+    OwnerPlayer entity<Player>
+
+    event OnAwake() {
+        OwnerPlayer = GetEntityOwner(thisEntity)
+    }
+
+    event OnClick(player entity<Player>) {
+        if BombEntities == nil {
+            BombEntities = list.Create(0, 0)
+        }
+        //Create bomb instance on click
+        CreateFromPrefab(out var bomb, Res.PrefabItems[EPrefab.Bomb])
+        list.Append(BombEntities, bomb)
+        bomb<Transform>.Position = player<Player>.Position
+        //Activate the bomb, start call means an asynchronous call
+        start bomb<BombScript>.ActiveBomb(player<Player>.ExplodeSize)
+    }
+
+    func CheckBombNum() bool {
+        var bombNumMax = OwnerPlayer<Player>.BombNum
+        var bombNum = 0
+        for i, bomb in BombEntities {
+            if bomb == nil {
+                continue
+            }
+            bombNum+=1
+        }
+        return bombNum < bombNumMax
+    }
+
+    event OnUpdate() {
+        //Control whether bombs can continue to be released based on the number of bomb instances that have been released
+        thisEntity<HudWidget>.Active = CheckBombNum()
+    }
+}

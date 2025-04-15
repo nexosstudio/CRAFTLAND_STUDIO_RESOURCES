@@ -1,0 +1,41 @@
+import "StdLibrary.fcc" as std
+import "Math.fcc" as math
+import "Playable.fcc" as play
+import "EditorGenLib.fcc" as gen
+import "Player.fcc" as player
+import "./SceneMgr.fcg" as SceneMgr
+
+graph BombEffectScript {
+    func Explode2Dir(movePart entity<Entity>, dir Vector3) entity<Tween> {
+        var propID = Transform.Position
+        //Explosion radius
+        var size = thisEntity<BombEffectCmp>.Size
+        var srcPos = thisEntity<Transform>.Position
+        var destPos = srcPos+dir*size
+        var curve = CreateTweenCurve(List<float>{0, 0, 1, 1})
+        CreateTween(movePart, propID, srcPos, destPos, TweenStyle.Once, curve, 1000, out var moveTween, true)
+        return moveTween
+    }
+
+    async func Explode() {
+        //Control special effects
+        var leftFireTween = Explode2Dir(thisEntity<BombEffectCmp>.Left, Vector3{-1, 0, 0})
+        var rightFireTween = Explode2Dir(thisEntity<BombEffectCmp>.Right, Vector3{1, 0, 0})
+        var forwordFireTween = Explode2Dir(thisEntity<BombEffectCmp>.Forword, Vector3{0, 0, 1})
+        var backFireTween = Explode2Dir(thisEntity<BombEffectCmp>.Back, Vector3{0, 0, -1})
+        var explodeFireList = List<entity<Tween>>{leftFireTween, rightFireTween, forwordFireTween, backFireTween}
+        //Batch play
+        Play(explodeFireList, false)
+        
+        //Destroy blocks
+        WaitForSeconds(500)
+        SceneMgr.BombExplode(thisEntity<Transform>.Position, thisEntity<BombEffectCmp>.Size)
+
+        WaitForSeconds(500)
+        //Clean up entities
+        for i, tween in explodeFireList {
+            DeleteEntity(tween)   
+        }
+        DeleteEntity(thisEntity)
+    }
+}

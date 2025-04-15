@@ -1,0 +1,294 @@
+{
+ "blocks": {
+  "languageVersion": 0,
+  "blocks": [
+   {
+    "type": "e",
+    "id": "o_cZKJ}%z!BYwB/;huA{",
+    "x": -430,
+    "y": 70,
+    "extraState": {
+     "X": 1,
+     "L": [],
+     "T": "OnMatchStart"
+    },
+    "next": {
+     "block": {
+      "type": "grs",
+      "id": "Z4q__d9+*;|fQrhhi7Ts",
+      "fields": {
+       "VR": "Tt38sAKZt5ld!P+/4K9T"
+      },
+      "inputs": {
+       "V": {
+        "shadow": {
+         "type": "tys",
+         "id": "!UF;[y:`8r%;~|Cb09sN",
+         "extraState": "Float"
+        },
+        "block": {
+         "type": "ipf",
+         "id": "3L0[P~uXcndnMJ.:8DBD",
+         "fields": {
+          "V": 3
+         }
+        }
+       }
+      },
+      "next": {
+       "block": {
+        "type": "grs",
+        "id": "GyM[5^]n:kp$=`L9-k9~",
+        "fields": {
+         "VR": "G4=7*f5J2$rZ;%$OKU$B"
+        },
+        "inputs": {
+         "V": {
+          "shadow": {
+           "type": "tys",
+           "id": "M-ZhMd:]v$-Jess)Qo^q",
+           "extraState": "int"
+          },
+          "block": {
+           "type": "ipi",
+           "id": "KZioh:`q4*hF}_oDWx1B",
+           "fields": {
+            "V": 40
+           }
+          }
+         }
+        },
+        "next": {
+         "block": {
+          "type": "grs",
+          "id": "`fDG0FG32qtw$wp|HpgG",
+          "fields": {
+           "VR": "H*M*nZDz?DeZPP]9|BrY"
+          },
+          "inputs": {
+           "V": {
+            "shadow": {
+             "type": "tys",
+             "id": "nA7u^=RISU.Cj_0z6{KS",
+             "extraState": "int"
+            },
+            "block": {
+             "type": "ipi",
+             "id": "(OGLel!/EpM,U%wQ1yQM",
+             "fields": {
+              "V": 100
+             }
+            }
+           }
+          },
+          "next": {
+           "block": {
+            "type": "grs",
+            "id": "s2[51z1m#un2;seOITkV",
+            "fields": {
+             "VR": ",R~/Io{$?s+q=jOx0DM,"
+            },
+            "inputs": {
+             "V": {
+              "shadow": {
+               "type": "tys",
+               "id": "Liu|Lyz5#,x/M|FbO5y:",
+               "extraState": "int"
+              },
+              "block": {
+               "type": "ipi",
+               "id": ",159LsFFukgYg#sY#d,r",
+               "fields": {
+                "V": 3
+               }
+              }
+             }
+            },
+            "next": {
+             "block": {
+              "type": "grs",
+              "id": "sKUAc=MZ4--!:T#(oetr",
+              "fields": {
+               "VR": "rYJt%Pp!PQ[FU4T9*@Pi"
+              },
+              "inputs": {
+               "V": {
+                "shadow": {
+                 "type": "tys",
+                 "id": "H}0y*E(8]-NbEh:ek{r;",
+                 "extraState": "int"
+                },
+                "block": {
+                 "type": "ipi",
+                 "id": "jXZY=w^mnm9s4?E+@^2C",
+                 "fields": {
+                  "V": 20
+                 }
+                }
+               }
+              },
+              "next": {
+               "block": {
+                "type": "grs",
+                "id": "!%{RU..)qL3*)~b3@)LS",
+                "fields": {
+                 "VR": "vPkmn9zgl"
+                },
+                "inputs": {
+                 "V": {
+                  "shadow": {
+                   "type": "tys",
+                   "id": "G;:JPD|a}T2fx:{}ks{(",
+                   "extraState": "Int"
+                  },
+                  "block": {
+                   "type": "grg",
+                   "id": "`d23r/QK(G|8ia1.6nLi",
+                   "fields": {
+                    "VR": ",R~/Io{$?s+q=jOx0DM,"
+                   }
+                  }
+                 }
+                },
+                "next": {
+                 "block": {
+                  "type": "grs",
+                  "id": "CyBFTOmKR+L5cHY$JgYh",
+                  "fields": {
+                   "VR": "vsT5NILix"
+                  },
+                  "inputs": {
+                   "V": {
+                    "shadow": {
+                     "type": "tys",
+                     "id": "Zl2c,vyS^iGz?.75uK}C",
+                     "extraState": "Int"
+                    },
+                    "block": {
+                     "type": "ipi",
+                     "id": "6U2!+2)+p$}dvX1#`zno",
+                     "fields": {
+                      "V": 60000
+                     }
+                    }
+                   }
+                  },
+                  "next": {
+                   "block": {
+                    "type": "grs",
+                    "id": "2EmWg!x-wCAG-BSb5X1=",
+                    "fields": {
+                     "VR": "v2WQLGDTG"
+                    },
+                    "inputs": {
+                     "V": {
+                      "shadow": {
+                       "type": "tys",
+                       "id": "_3_Bz2aGoAs##}3jIcI^",
+                       "extraState": "Int"
+                      },
+                      "block": {
+                       "type": "ipi",
+                       "id": "hltn($qnA+3ss3Il)FQ8",
+                       "fields": {
+                        "V": 60000
+                       }
+                      }
+                     }
+                    },
+                    "next": {
+                     "block": {
+                      "type": "grs",
+                      "id": "vKCNgsS(9R;og|UD,wOy",
+                      "fields": {
+                       "VR": "vVEMPxlNW"
+                      },
+                      "inputs": {
+                       "V": {
+                        "shadow": {
+                         "type": "tys",
+                         "id": "Z8$_,NU(V6kEEfp6EtD,",
+                         "extraState": "Int"
+                        },
+                        "block": {
+                         "type": "ipi",
+                         "id": "@O^~OVGjriZ_+maHE~oI",
+                         "fields": {
+                          "V": 5
+                         }
+                        }
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  ]
+ },
+ "variables": [
+  {
+   "id": "Tt38sAKZt5ld!P+/4K9T",
+   "name": "BombTime",
+   "type": "Float"
+  },
+  {
+   "id": "G4=7*f5J2$rZ;%$OKU$B",
+   "name": "BlockPossibility",
+   "type": "int"
+  },
+  {
+   "id": "H*M*nZDz?DeZPP]9|BrY",
+   "name": "BombInterval",
+   "type": "int"
+  },
+  {
+   "id": ",R~/Io{$?s+q=jOx0DM,",
+   "name": "DefaultRange",
+   "type": "int"
+  },
+  {
+   "id": "rYJt%Pp!PQ[FU4T9*@Pi",
+   "name": "DefalutDamage",
+   "type": "int"
+  },
+  {
+   "id": "vsT5NILix",
+   "name": "PowerUpTimeInterval",
+   "type": "Int",
+   "value": 0
+  },
+  {
+   "id": "vPkmn9zgl",
+   "name": "BombRange",
+   "type": "Int",
+   "value": 0
+  },
+  {
+   "id": "v2WQLGDTG",
+   "name": "SafeZoneTime",
+   "type": "Int",
+   "value": 60000
+  },
+  {
+   "id": "vVEMPxlNW",
+   "name": "SafeZoneDamage",
+   "type": "Int",
+   "value": 5
+  }
+ ]
+}

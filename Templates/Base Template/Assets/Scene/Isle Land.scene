@@ -1,0 +1,124 @@
+{
+  "_tag": {
+    "type": "Scene",
+    "resourceId": ""
+  },
+  "_entityId": "n4PlNLLi",
+  "prefabVariant": null,
+  "children": [
+    {
+      "_tag": {
+        "type": "EnvWeatherEntity",
+        "resourceId": "Primitive/Empty"
+      },
+      "_entityId": "GttbOsPW",
+      "children": [],
+      "prefabVariant": null,
+      "activeValue": {
+        "selfValue": true,
+        "valueTag": "activeValue"
+      },
+      "unlockedValue": null,
+      "editorLockValue": false,
+      "editorVisibleValue": true,
+      "position": {
+        "x": 0,
+        "y": 100,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotation": {
+        "x": 45,
+        "y": -204,
+        "z": -9
+      },
+      "BTPath": [
+        null
+      ],
+      "visible": true,
+      "VisibilityLayer": 0,
+      "modelOptimization": 0,
+      "streamingLayer": "",
+      "attributes": [
+        2,
+        4
+      ],
+      "isTrigger": false,
+      "collidable": true,
+      "physicalLayer": 0,
+      "physicalMaterial": null,
+      "aoiSetting": 0,
+      "initialTypes": {},
+      "componentList": [],
+      "_filters": [],
+      "curWeatherPresetID": 1,
+      "_entityName": "FE_0_ZZ_SKYENV_SKY",
+      "currentWeather": {
+        "lightColor": {
+          "r": 248,
+          "g": 248,
+          "b": 248,
+          "a": 1
+        },
+        "lightIntensity": 1.06,
+        "darkness": 0.03,
+        "shadowStrength": 0.6,
+        "terrainWetness": 0,
+        "lensFlare": 0.65,
+        "fogColor": {
+          "r": 123,
+          "g": 158,
+          "b": 192,
+          "a": 1
+        },
+        "ambientColor": {
+          "r": 149,
+          "g": 149,
+          "b": 149,
+          "a": 1
+        },
+        "nightMode": false,
+        "resId": "UGC_SKYENV_DAY",
+        "enableFog": true,
+        "fogType": 1,
+        "startDistance": 50,
+        "endDistance": 1000,
+        "density": 0.01,
+        "lightRotation": {
+          "x": 45,
+          "y": -204,
+          "z": -9
+        }
+      }
+    }
+  ],
+  "properties": {},
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "discriminator": "ISceneLike",
+  "_entityName": "Isle Land",
+  "mapID": 25,
+  "terrainInfo": {
+    "texture": [
+      {
+        "fileId": "e4c65232d3be1e92230bbcfdfd075038",
+        "filePath": "lib://fftextures/WorkshopItemTexture/SceneEdit_Cube_Texture_Grassland_01.png",
+        "_tag": {
+          "type": "GFileRefer"
+        },
+        "fileType": "texture"
+      }
+    ]
+  }
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

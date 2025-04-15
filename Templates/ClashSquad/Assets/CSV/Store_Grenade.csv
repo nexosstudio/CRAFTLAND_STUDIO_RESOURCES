@@ -1,0 +1,6 @@
+ID,Name,Item,Count,Price,TotalPurchaseLimit,CurTotalPurchaseLimit
+int,string,string,string,int,int,int
+1,GRENADE,601,1,300,1,1
+2,GLOO WALL,1201,1,300,3,3
+3,FLASH FREEZE,608,1,300,1,1
+4,MUSHROOM LV.3,703,1,100,3,3

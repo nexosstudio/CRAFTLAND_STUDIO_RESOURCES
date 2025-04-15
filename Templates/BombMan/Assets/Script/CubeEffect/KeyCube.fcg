@@ -1,0 +1,21 @@
+import "StdLibrary.fcc" as std
+import "EditorGenLib.fcc" as gen
+import Resources as Res from "EditorGenLib.fcc"
+
+//The block that will open the entrance to the next level
+graph CubeEffectKeyCube {
+    //Respond to custom events
+    event OnSceneCubeCreated() {
+        //In order to easily identify the differences between blocks, change the color of the blocks
+        thisEntity<Appearance>.DiffuseColor = #FF0000FF
+    }
+
+    event OnDestroy(){
+        //Create key item to the next level at the current location
+        CreateFromPrefab(out var keyTrigger, Res.PrefabItems[EPrefab.Trigger_Key])
+        keyTrigger<Transform>.Position = thisEntity<Transform>.Position
+        //Create the entrance to the next level in the center of the map
+        CreateFromPrefab(out var winTrigger, Res.PrefabItems[EPrefab.Trigger_Win])
+        winTrigger<Transform>.Position = Vector3{0, 0, 0}
+    }
+}

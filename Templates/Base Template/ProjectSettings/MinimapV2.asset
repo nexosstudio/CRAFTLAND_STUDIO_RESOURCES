@@ -1,0 +1,28 @@
+{
+  "_tag": {
+    "type": "ff.MinimapV2",
+    "resourceId": "MinimapV2"
+  },
+  "_entityId": "UVcIHhAF",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": {
+    "selfValue": true,
+    "valueTag": "activeValue"
+  },
+  "unlockedValue": {
+    "selfValue": true,
+    "valueTag": "unlockedValue"
+  },
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 34,
+  "modOpen": true,
+  "mapType": null,
+  "_entityName": "T_43_YU_WS_MODULE_MINIMAP",
+  "hideMinimap": false,
+  "useCustomMinimap": false,
+  "enableDepthMap": false,
+  "showSwitch": false
+}
+//"{FE:{"v":"0.1.3440051","c":{"FF":4701},"s":100}

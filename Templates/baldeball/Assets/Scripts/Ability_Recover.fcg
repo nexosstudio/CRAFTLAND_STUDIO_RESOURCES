@@ -1,0 +1,94 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import Ball_Manager from "EditorGenLib.fcc"
+import Player_Ability from "EditorGenLib.fcc"
+import Player_Config from "EditorGenLib.fcc"
+import Ball_Manager from "EditorGenLib.fcc"
+import Resources from "EditorGenLib.fcc"
+
+import "Physics.fcc" as physics 
+import "LevelObject.fcc" as levelObject 
+import "Combat.fcc" as combat 
+import "Playable.fcc" as playable 
+import "./VisualEffectUtils.fcg" as visualEffectUtils
+import "./TextObjectUtils.fcg" as textObjectUtils
+import "./MotionUtils.fcg" as motionUtils
+
+import "Workflow.fcc" as workflow 
+import "Player.fcc" as player 
+
+graph Ability_RecoverAbility {
+    isUsingSkill bool;
+    auraEffect EffectEntity;
+    auraFollowMotion PositionFollow;
+    textObject TextEntity;
+    event OnFire() {
+        SphereOverlap(thisEntity<Player>.hitRange,thisEntity<Player>.Position+Vector3{0, 0.5, 0},List<int>{1},false,out var listOfEntity);
+
+        for key, ball in listOfEntity {
+            DispatchEvent(OnPlayerHitTheBall,ball<Entity>,List<object>{thisEntity<Player>,nil});
+        }
+        
+    }
+    event OnRoundEnd(roundIndex int) {
+        DeleteAllEffect();
+    }
+
+    event OnBeKilled(attacker entity<Entity>, damageType DamageType, beDamagedPart HitBodyPart) {
+        LogInfo("Delete Effect");
+        DeleteAllEffect();
+    }
+
+    event OnPlayerUseAbility() {
+        start CastRecovery();
+
+    }
+
+    event OnPhaseStart(phase entity<Phase>) {
+        if (phase<Phase>.PhaseIndex==Resources:phaseIndexEnum["StageEnds"]){
+            LogInfo("Delete this ability");
+
+            DeleteAllEffect();
+        }
+    }
+
+    async func CastRecovery(){
+        PlaySound(thisEntity<Player>,SoundEffects:LevelUp);
+        isUsingSkill = true;
+        TurnOnEffect();
+        
+        if(textObject==nil){
+            textObject = textObjectUtils:CreateText(Resources:skillNameLocalization["Recovery"],#0FFF0FFF,thisEntity<Player>.Position);
+        }
+        start motionUtils:FloatingTextMotion(textObject,1000,thisEntity<Player>.Position);
+        AddHP(thisEntity<Player>,100);       
+        thisEntity<Player_Ability>.StartCD();
+        WaitForSeconds(2000);
+        TurnOffEffect();
+    }
+    func TurnOnEffect(){
+
+        if(auraEffect==nil){
+            auraEffect = visualEffectUtils:CreateVisualEffectSelf(EffectType:Recover,#F5F5F5FF,Vector3{1, 2, 1},Vector3{0, 0, 0},thisEntity<Player>) as EffectEntity;
+            auraFollowMotion = visualEffectUtils:CraeateEffectEntityFollowPlayer(auraEffect<EffectEntity>,thisEntity<Entity>,Vector3{0, .8, 0});
+        }else{
+            SetActive(auraEffect<Entity>,true);
+        }
+
+    }
+    func TurnOffEffect(){
+       
+        SetActive(auraEffect<Entity>,false);
+    }
+
+    async func DeleteAllEffect(){
+        thisEntity<Visibility>.Visible = true;
+        DeleteEntity(auraEffect<Entity>);
+        DeleteEntity(auraFollowMotion<Entity>);
+        DeleteEntity(textObject<Entity>);
+        WaitForNextFrame();
+
+        thisEntity<Player_Ability>.DeleteCurrentAbility();
+
+    }
+}

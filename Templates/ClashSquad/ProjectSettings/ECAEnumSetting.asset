@@ -1,0 +1,46 @@
+{
+  "_tag": {
+    "type": "ECAEnumSetting"
+  },
+  "_entityId": "lbPkggt7",
+  "enumCount": 0,
+  "enumDefines": {
+    "CustomEnum73694171": {
+      "label": "PlayerState",
+      "key": "CustomEnum73694171",
+      "type": "Int",
+      "info": [
+        {
+          "label": "Default",
+          "key": "E49843210",
+          "value": 0,
+          "type": "Int"
+        },
+        {
+          "label": "Alive",
+          "key": "E17186815",
+          "value": 1,
+          "type": "Int"
+        },
+        {
+          "label": "Weak",
+          "key": "E15175603",
+          "value": 2,
+          "type": "Int"
+        },
+        {
+          "label": "Dead",
+          "key": "E24177880",
+          "value": 3,
+          "type": "Int"
+        }
+      ],
+      "isCustom": true,
+      "isDirty": false
+    }
+  },
+  "enumNameMap": {
+    "PlayerState": "CustomEnum73694171"
+  }
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4501},"s":100}

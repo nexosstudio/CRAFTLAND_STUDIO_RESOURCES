@@ -1,0 +1,131 @@
+{
+  "_tag": {
+    "type": "ff.InputSystem",
+    "resourceId": "InputSystem"
+  },
+  "_entityId": "tmlQ74R9",
+  "children": [],
+  "prefabVariant": null,
+  "activeValue": null,
+  "unlockedValue": null,
+  "editorLockValue": false,
+  "editorVisibleValue": true,
+  "modId": 40,
+  "mappingList": [
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "w",
+      "inputGesture": 0,
+      "mappingAction": 1
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "s",
+      "inputGesture": 0,
+      "mappingAction": 2
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "a",
+      "inputGesture": 0,
+      "mappingAction": 3
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "d",
+      "inputGesture": 0,
+      "mappingAction": 4
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "left ctrl",
+      "inputGesture": 1,
+      "mappingAction": 5
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "\\",
+      "inputGesture": 1,
+      "mappingAction": 6
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "space",
+      "inputGesture": 1,
+      "mappingAction": 7
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "g",
+      "inputGesture": 1,
+      "mappingAction": 8
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "e",
+      "inputGesture": 1,
+      "mappingAction": 10
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "c",
+      "inputGesture": 0,
+      "mappingAction": 11
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "q",
+      "inputGesture": 1,
+      "mappingAction": 12
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "v",
+      "inputGesture": 1,
+      "mappingAction": 13
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "f",
+      "inputGesture": 1,
+      "mappingAction": 14
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "p",
+      "inputGesture": 1,
+      "mappingAction": 15
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "e",
+      "inputGesture": 1,
+      "mappingAction": 21
+    },
+    {
+      "mappingType": 1,
+      "uiRef": null,
+      "inputKey": "e",
+      "inputGesture": 1,
+      "mappingAction": 18
+    }
+  ],
+  "defaultOpen": true,
+  "_entityName": "FE_42_V_INPUT_SYSTEM"
+}
+//"{FE:{"v":"0.0.0","c":{"FF":4701},"s":100}

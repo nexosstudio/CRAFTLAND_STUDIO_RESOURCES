@@ -1,0 +1,41 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import "Items.fcc" as items 
+import "Player.fcc" as player
+import Player_Data from "EditorGenLib.fcc"
+import Global_ItemManager from "EditorGenLib.fcc"
+import "Collection.fcc" as collection 
+import "Combat.fcc" as combat 
+
+graph Player_WeaponEquip {
+
+    func EquipWeaponFromID(itemID object){
+        var weapon = globalEntity<Global_ItemManager>.GetWeaponItemType(itemID);
+        var skin = globalEntity<Global_ItemManager>.GetWeaponSkin(itemID);
+        
+        if(weapon!=nil){
+            DeleteEquipment(thisEntity<Player>,EquipSlotType:MeleeWeapon,1,out var isSuccess);
+            AddItemToPlayer(thisEntity<Player>,weapon as itemID,1,out var listValue);
+            thisEntity<Player_Data>.WriteWeaponEquipedData(itemID);
+        }
+        if(skin!=nil){
+            SetWeaponSkin(thisEntity<Player>,skin as WeaponSkinID);
+        }
+        // change player stat base on weapon
+        thisEntity<Player>.hitRange = globalEntity<Global_ItemManager>.GetWeaponRange(itemID);
+        thisEntity<Player>.RunSpeedScale = globalEntity<Global_ItemManager>.GetWeaponMovementSpeed(itemID);
+        thisEntity<Player>.ballSpeed = globalEntity<Global_ItemManager>.GetWeaponBallSpeed(itemID);
+        thisEntity<Player>.currentWeaponEquip = itemID;
+
+    }
+
+    event OnBeKilled(attacker entity<Entity>, damageType DamageType, beDamagedPart HitBodyPart) {
+        AddItemToPlayer(thisEntity<Player>,ItemIDType:SmokeGrenade,2, out var list);
+    }
+    event OnDataCompleteLoad() {
+        EquipWeaponFromID(thisEntity<Player_Data>.currentWeapon);    
+    }
+    event OnPlayerEquipWeapon(itemID object) {
+        EquipWeaponFromID(itemID);
+    }
+}

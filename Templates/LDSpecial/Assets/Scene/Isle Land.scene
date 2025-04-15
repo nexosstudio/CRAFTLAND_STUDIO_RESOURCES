@@ -1,0 +1,15 @@
+{
+ "_tag": {
+  "type": "Scene",
+  "resourceId": ""
+ },
+ "_entityId": "n4PlNLLi",
+ "prefabVariant": null,
+ "children": [],
+ "properties": {},
+ "activeValue": null,
+ "unlockedValue": null,
+ "discriminator": "ISceneLike",
+ "_entityName": "Scene",
+ "mapID": 25
+}

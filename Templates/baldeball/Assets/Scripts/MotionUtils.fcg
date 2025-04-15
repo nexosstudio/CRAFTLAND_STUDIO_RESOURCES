@@ -1,0 +1,17 @@
+import "StdLibrary.fcc" as stdLibrary
+import "EditorGenLib.fcc" as editorGenLib
+import "Playable.fcc" as playable 
+
+static graph MotionUtils {
+    async func FloatingTextMotion(targetEntity TextEntity, duration int, startPosition Vector3) {
+        SetActive(targetEntity<TextEntity>,true);
+        var curve = CreateTweenCurve(List<float>{0.3,1,.5,1});
+        CreateTween(targetEntity<TextEntity>,Transform:Position,startPosition,startPosition+Vector3{0, 2, 0},TweenStyle:Once,curve,duration,out var motion);
+        Play(motion<Playable>,true);
+        WaitForSeconds(duration+1000);
+        SetActive(targetEntity<TextEntity>,false);
+        DeleteEntity(motion)
+       
+    }
+
+}

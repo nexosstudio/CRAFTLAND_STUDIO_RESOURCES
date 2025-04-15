@@ -1,0 +1,11 @@
+import "StdLibrary.fcc" as std
+
+//Encapsulate custom function library
+static graph EventBusTool {
+    //Notify all players of events
+    func DispatchEvent2Players(eventID EventID, args List<object>) {
+        for index, player in GetAllPlayers() {
+            DispatchEvent(eventID, player, args)
+        }
+    }
+}

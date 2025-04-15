@@ -1,0 +1,10 @@
+import "StdLibrary.fcc" as std
+
+//Encapsulating static tool scripts
+static graph ConstValues {
+    //Simulating constants via read-only properties
+    [readonly]
+    TagKeyCube string = "KeyCube"
+    [readonly]
+    TagKeyPlayer string = "KeyPlayer"
+}
