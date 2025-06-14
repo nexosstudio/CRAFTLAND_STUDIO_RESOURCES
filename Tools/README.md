@@ -4,8 +4,8 @@ A collection of recommended tools and extensions for creating and customizing **
 
 ### 🎮 Craftland Studio  
 
-- **For PC:** [Download Here](#) *(Add official link)*  
-- **For Mobile:** [Download Here](#) *(Add official link)*  
+- **For PC:** [Download Here](https://dl-cdn.craftlandstudio.com/live/public_stable/CraftlandStudio_1.13.3718928.exe)
+- **For Mobile:** [Download Here](https://play.google.com/store/apps/details?id=com.dts.freefiremax)
 
 ---
 
@@ -30,7 +30,7 @@ Enhance your development experience with these useful extensions:
 
 ### 🎨 Unity & Blender Support  
 
-Although **Craftland Studio** does not directly support **Unity** or **Blender**, they can still be useful for certain aspects of development:  
+Although **Craftland Studio** does not directly support **Autodesk** or **Blender**, they can still be useful for certain aspects of development:  
 
 #### 🖌 **Blender (3D Modeling & Assets)**
 Blender can be used to create and edit **custom 3D models** for Craftland Studio. You can:  
@@ -40,11 +40,7 @@ Blender can be used to create and edit **custom 3D models** for Craftland Studio
 
 > ⚠ **Note:** Importing 3D models into Craftland Studio may require conversion or additional adjustments.  
 
-#### 🎮 **Unity (Game Logic & Scene Prototyping)**
-Unity can be used to prototype and visualize your game ideas before building them in Craftland Studio. You can:  
-- Create and test game logic using C#  
-- Prototype animations and behavior trees  
-- Design complex scenes before manually recreating them in Craftland  
+#### 🎮 **Autodesk**
 
 > ⚠ **Note:** Unity projects cannot be directly imported into Craftland Studio, but **scripts and logic** can be adapted.  
 

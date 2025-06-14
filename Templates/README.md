@@ -12,7 +12,7 @@ This template includes:
 - 🎮 **Custom terrain layout** (e.g., parkour, battle zone, mini-games)
 - 🧱 **Pre-placed objects and props**
 - 🧠 **Block Scripts** for interactivity (e.g., auto weapons, teleporters)
-- 🧑‍💻 **Code Scripts** for advanced logic (optional)
+- 💻 **Code Scripts** for advanced logic (optional)
 - ⚙️ **Game settings** already configured
 
 ---

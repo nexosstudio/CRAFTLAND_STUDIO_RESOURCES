@@ -1,0 +1,1 @@
+- here basic hello word script
