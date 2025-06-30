@@ -1,2 +1,0 @@
-id,mode,modeScene,abFilePath,gsSceneData,gsBaseSceneData,gsBaseSceneData2,gsBin,gsNavmesh
-地图id,游戏模式id,模式地图,模式地图ab,gs上的场景配置,gs上的场景配置依赖1,gs上的场景配置依赖2,collider文件,navmesh文件

@@ -1,9 +1,0 @@
-import "StdLibrary.fcc" as std
-import "EditorGenLib.fcc" as gen
-import Resources as Res from "EditorGenLib.fcc"
-
-graph SceneCube {
-    event OnDestroy(){
-        
-    }
-}
