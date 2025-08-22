@@ -1,1 +1,1 @@
-- here basic hello word script
+## Updating Soon!

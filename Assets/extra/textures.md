@@ -1,13 +1,5 @@
 ## 🎨 Craftland Studio Textures & Particle Effects
 
-This document lists all available **textures** and **particle effects** for **Free Fire Craftland Studio**.  
-
----
-
-### 🏗️ Texture List  
-
-Textures define the **appearance** of surfaces and materials in Craftland Studio.  
-
 #### 📌 Default Texture  
 - `T_38_WZY_WS_DIFTEXTURE`  
 
@@ -59,11 +51,3 @@ Particle effects create **visual enhancements** such as fire, smoke, and energy 
 - `T_38_WZY_WS_GUNFIRE` *(Muzzle flash/gunfire effect)*  
 - `T_38_WZY_WS_LINE` *(Light streaks or lines)*  
 - `T_38_WZY_WS_LIQUID` *(Flowing liquid effect)*  
-
----
-
-### 📝 Notes  
-- **Textures** modify the look of objects and materials.  
-- **Particle effects** create animated visual enhancements for gameplay and environments.  
-
-Would you like **guides on applying these textures and effects** in Craftland Studio? 🚀  

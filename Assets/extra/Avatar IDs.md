@@ -1,11 +1,5 @@
 ## Avatar Resources
 
-This file contains a list of available avatars, including their unique IDs and names.
-
----
-
-### Avatar List
-
 1. **900000001** - Default Avatar
 2. **900000002** - Warrior Avatar
 3. **900000003** - Stealth Assassin Avatar
@@ -17,10 +11,5 @@ This file contains a list of available avatars, including their unique IDs and n
 9. **900000009** - Frost Guardian Avatar
 10. **900000010** - Thunder Striker Avatar
 
-*Note: This is a sample format; the actual list from the provided JSON file will be included in the final document.*
+_Note: This is a sample format; the actual list from the provided JSON file will be included in the final document._
 
----
-
-### Usage
-
-- These avatars can be used for customization in various in-game profiles and UI elements.

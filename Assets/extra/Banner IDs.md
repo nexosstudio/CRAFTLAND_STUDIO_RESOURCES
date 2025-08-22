@@ -1,11 +1,5 @@
 ## Banner Resource List
 
-...
-
----
-
-### Banners
-
 1. ** 900000001 ** -Default Banner
 2. ** 910000001 ** -Victory Banner
 3. ** 910000002 ** -Elite Force Banner
@@ -37,12 +31,3 @@
 29. ** 910000028 ** -Esports Championship Banner
 30. ** 910000029 ** -Limited Edition Banner
 31. ** 910000030 ** -Exclusive Event Banner
-
----
-
-### Usage
-
-- These banners can be used as player profile decorations. 
-- They may be featured in events, competitions, and special occasions. 
-- Each banner has a unique identifier
-for easy reference and application.
