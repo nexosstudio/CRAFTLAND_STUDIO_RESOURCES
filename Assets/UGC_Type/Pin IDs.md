@@ -1,6 +1,6 @@
 ## 📌 Pin Collection
 
-This file documents the **official pins** used in Craftland Studio along with their **internal IDs** and **display names**. Pins can represent achievements, events, and milestones in Free Fire.
+the pins used in Craftland Studio along with their **internal IDs** and **display names**. Pins can represent achievements, events, and milestones in Free Fire.
 
 ---
 

@@ -1,4 +1,4 @@
-## 🎨 Craftland Studio Textures & Particle Effects
+## 🎨 Textures & Particle Effects
 
 #### 📌 Default Texture  
 - `T_38_WZY_WS_DIFTEXTURE`  

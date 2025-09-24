@@ -1,3 +1,5 @@
+# Skybox
+
 Daytime = UGC_SKYENV_DAY
 Night = UGC_SKYENV_NIGHT
 Dusk = UGC_SKYENV_EVE
